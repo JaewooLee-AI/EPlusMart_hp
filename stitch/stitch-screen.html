@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>(주)피케이유통 E플러스마트 | 평내점 &amp; 퇴계원점 공식 홈페이지</title>
+<!-- Google Fonts: Noto Sans KR -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Configuration verbatim as required -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "outline-variant": "#bfc9bf",
+            "surface-variant": "#e0e3e8",
+            "secondary": "#9d4300",
+            "surface-container-high": "#e5e8ee",
+            "inverse-surface": "#2d3135",
+            "surface": "#f7f9ff",
+            "error": "#ba1a1a",
+            "on-tertiary-container": "#a7e7bd",
+            "on-primary-container": "#98eab7",
+            "tertiary": "#105132",
+            "on-surface-variant": "#3f4941",
+            "on-tertiary-fixed-variant": "#0f5132",
+            "background": "#f7f9ff",
+            "primary": "#005230",
+            "on-tertiary": "#ffffff",
+            "primary-fixed-dim": "#86d8a5",
+            "secondary-fixed": "#ffdbca",
+            "on-secondary": "#ffffff",
+            "on-error-container": "#93000a",
+            "surface-container": "#ebeef3",
+            "on-surface": "#181c20",
+            "surface-container-highest": "#e0e3e8",
+            "on-error": "#ffffff",
+            "on-secondary-fixed": "#341100",
+            "tertiary-fixed": "#b0f1c7",
+            "primary-fixed": "#a2f4c0",
+            "inverse-on-surface": "#eef1f6",
+            "inverse-primary": "#86d8a5",
+            "secondary-fixed-dim": "#ffb690",
+            "on-primary-fixed-variant": "#005230",
+            "surface-container-low": "#f1f4f9",
+            "tertiary-container": "#2d6a49",
+            "on-secondary-container": "#5c2400",
+            "outline": "#6f7a71",
+            "primary-container": "#146c43",
+            "surface-tint": "#146c43",
+            "surface-bright": "#f7f9ff",
+            "on-background": "#181c20",
+            "on-primary": "#ffffff",
+            "surface-dim": "#d7dadf",
+            "on-tertiary-fixed": "#002111",
+            "tertiary-fixed-dim": "#95d4ac",
+            "surface-container-lowest": "#ffffff",
+            "secondary-container": "#fd761a",
+            "error-container": "#ffdad6",
+            "on-secondary-fixed-variant": "#783200",
+            "on-primary-fixed": "#002110"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "space-md": "1rem",
+            "margin": "2rem",
+            "space-xs": "0.25rem",
+            "gutter": "1.5rem",
+            "gutter-mobile": "0.75rem",
+            "space-sm": "0.5rem",
+            "space-xl": "2.5rem",
+            "space-lg": "1.5rem",
+            "margin-mobile": "1rem"
+          },
+          "fontFamily": {
+            "display-hero": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "label-xs": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "body-sm": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "label-lg": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "body-lg": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "headline-lg": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "headline-md": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "headline-sm": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "label-md": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "headline-lg-mobile": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "body-md": ["Noto Sans KR", "Noto Sans", "sans-serif"],
+            "title-md": ["Noto Sans KR", "Noto Sans", "sans-serif"]
+          },
+          "fontSize": {
+            "display-hero": ["48px", { "lineHeight": "60px", "letterSpacing": "-0.03em", "fontWeight": "800" }],
+            "label-xs": ["11px", { "lineHeight": "14px", "letterSpacing": "0.03em", "fontWeight": "700" }],
+            "body-sm": ["13px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
+            "headline-lg": ["36px", { "lineHeight": "46px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "headline-sm": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "title-md": ["18px", { "lineHeight": "26px", "fontWeight": "600" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    body {
+      background-color: #FAFAF7;
+      color: #181c20;
+      font-family: 'Noto Sans KR', sans-serif;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .elevation-ambient {
+      box-shadow: 0 4px 20px -2px rgba(20, 108, 67, 0.04), 0 2px 6px -1px rgba(0, 0, 0, 0.03);
+    }
+    .elevation-hover:hover {
+      box-shadow: 0 12px 28px -4px rgba(20, 108, 67, 0.08), 0 4px 12px -2px rgba(0, 0, 0, 0.04);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased selection:bg-primary selection:text-on-primary">
+<!-- 1. TOP ANNOUNCEMENT BAR -->
+<aside class="bg-primary text-on-primary font-body-sm text-body-sm py-2 px-4 sticky top-0 z-50 border-b border-tertiary-container shadow-sm">
+<div class="max-w-7xl mx-auto flex items-center justify-between gap-4">
+<div class="flex items-center gap-3 overflow-hidden text-ellipsis whitespace-nowrap">
+<span class="inline-flex items-center px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary font-label-xs text-label-xs uppercase font-bold tracking-wider">
+          NOTICE
+        </span>
+<span class="truncate font-medium text-on-primary-container">
+          평내호평역 도보 12분 · 넓은 전용 주차장 &amp; OTIS 엘리베이터 완비 · 평내점 &amp; 퇴계원점 연중 신선 영업 (연중무휴 08:30~23:00)
+        </span>
+</div>
+<div class="hidden lg:flex items-center gap-4 text-on-primary-container font-label-md text-label-md shrink-0">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">call</span>
+          고객센터 031-574-1134
+        </span>
+<span class="text-outline-variant opacity-40">|</span>
+<span class="flex items-center gap-1 text-primary-fixed">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+          매일 산지 당일직송
+        </span>
+</div>
+</div>
+</aside>
+<!-- SHARED COMPONENT: TopNavBar (Strictly Adheres to JSON Specifications & Hierarchy) -->
+<header class="bg-surface-container-lowest dark:bg-inverse-surface text-primary dark:text-inverse-primary docked full-width top-0 sticky z-50 shadow-sm border-b border-surface-variant dark:border-outline">
+<div class="w-full max-w-7xl mx-auto px-4 md:px-8 flex items-center justify-between h-20">
+<!-- Logo Anchor -->
+<a class="flex items-center gap-3 group" href="#">
+<div class="w-11 h-11 rounded-xl bg-primary text-on-primary flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform duration-200">
+<span class="material-symbols-outlined text-2xl text-secondary-container">eco</span>
+</div>
+<div class="flex flex-col">
+<span class="font-headline-md text-headline-md font-bold text-primary dark:text-inverse-primary tracking-tight">
+            (주)피케이유통 E플러스마트
+          </span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-medium tracking-wide">
+            평내본점 &amp; 퇴계원점 직영 공식허브
+          </span>
+</div>
+</a>
+<!-- Desktop Navigation Links (JSON Source of Truth) -->
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-primary dark:text-inverse-primary font-bold border-b-2 border-primary dark:border-inverse-primary pb-1 font-label-lg text-label-lg transition-colors duration-200" href="#hero">홈</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-on-surface font-label-lg text-label-lg hover:text-primary dark:hover:text-inverse-primary hover:bg-surface-container-low px-2 py-1 rounded transition-colors duration-200" href="#corners">매장·코너안내</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-on-surface font-label-lg text-label-lg hover:text-primary dark:hover:text-inverse-primary hover:bg-surface-container-low px-2 py-1 rounded transition-colors duration-200" href="#flyers">금주의 전단·공지</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-on-surface font-label-lg text-label-lg hover:text-primary dark:hover:text-inverse-primary hover:bg-surface-container-low px-2 py-1 rounded transition-colors duration-200" href="#recruitment">원클릭 채용</a>
+<a class="text-on-surface-variant dark:text-surface-variant font-medium hover:text-on-surface font-label-lg text-label-lg hover:text-primary dark:hover:text-inverse-primary hover:bg-surface-container-low px-2 py-1 rounded transition-colors duration-200" href="#b2b">B2B 납품·제휴</a>
+</nav>
+<!-- Trailing Actions & Functional Icons -->
+<div class="flex items-center gap-3">
+<div class="hidden xl:flex items-center gap-1 border-r border-surface-variant pr-3 mr-1">
+<button aria-label="알림" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors duration-200" type="button">
+<span class="material-symbols-outlined text-[22px]">notifications</span>
+</button>
+<button aria-label="매장위치" class="w-10 h-10 rounded-full flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-low transition-colors duration-200" type="button">
+<span class="material-symbols-outlined text-[22px]">location_on</span>
+</button>
+</div>
+<a class="hidden sm:inline-flex items-center gap-1.5 px-4 py-2 rounded-xl border border-primary text-primary font-label-md text-label-md font-semibold hover:bg-surface-container-low active:scale-95 transition-all duration-150" href="#app-download">
+<span class="material-symbols-outlined text-[18px]">install_mobile</span>
+<span>전용 앱 다운로드</span>
+</a>
+<a class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-secondary-container text-on-secondary font-label-md text-label-md font-bold shadow hover:bg-secondary active:scale-95 transition-all duration-150" href="#recruitment-form">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+<span>30초 간편 입사지원</span>
+</a>
+</div>
+</div>
+</header>
+<!-- 2. HERO SECTION WITH LIVE STORE COMPARISON DOCK -->
+<section class="relative pt-10 pb-16 overflow-hidden" id="hero">
+<!-- Subtle Ambient Green Glow Gradient Backdrop -->
+<div class="absolute inset-0 bg-gradient-to-b from-surface-container-low via-surface to-background pointer-events-none -z-10"></div>
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<!-- Hero Top Text -->
+<div class="text-center max-w-4xl mx-auto mb-10">
+<div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary-fixed text-primary font-label-sm text-label-sm font-bold mb-4 shadow-sm">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span>남양주 평내·퇴계원 지역상권 신선식품 1등 마트</span>
+</div>
+<h1 class="font-display-hero text-display-hero text-primary tracking-tight mb-4">
+          매일 아침 산지의 신선함을,<br class="hidden sm:block"/>
+          우리 동네 식탁으로
+        </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-6">
+          (주)피케이유통이 엄선하여 운영하는 남양주 대표 신선종합마트 — E플러스마트 평내점 &amp; 퇴계원점에서 건강하고 풍성한 일상을 함께하세요.
+        </p>
+<!-- Trust Badges Strip -->
+<div class="flex flex-wrap items-center justify-center gap-2 sm:gap-3 mb-8">
+<span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest border border-outline-variant/30 text-on-surface font-label-md text-label-md elevation-ambient">
+<span class="material-symbols-outlined text-primary text-[18px]">local_shipping</span>
+            매일 새벽 산지직송
+          </span>
+<span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest border border-outline-variant/30 text-on-surface font-label-md text-label-md elevation-ambient">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">skillet</span>
+            당일 조리 수제반찬
+          </span>
+<span class="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-surface-container-lowest border border-outline-variant/30 text-on-surface font-label-md text-label-md elevation-ambient">
+<span class="material-symbols-outlined text-tertiary-container text-[18px]">elevator</span>
+            넓은 전용 주차장 &amp; OTIS 승강기 완비
+          </span>
+</div>
+<!-- Action CTAs -->
+<div class="flex flex-wrap items-center justify-center gap-4">
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-md hover:bg-tertiary-container transition-all duration-200" href="#flyers">
+<span class="material-symbols-outlined">menu_book</span>
+            금주의 모바일 전단 보기 (PDF/이미지)
+          </a>
+<a class="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-surface-container-lowest border-2 border-primary text-primary font-label-lg text-label-lg font-bold hover:bg-surface-container-low transition-all duration-200 elevation-ambient" href="#branches-dock">
+<span class="material-symbols-outlined">directions</span>
+            매장 오시는 길 &amp; 주차 안내
+          </a>
+</div>
+</div>
+<!-- Floating Live Store Comparison Dock -->
+<div class="mt-8 pt-4" id="branches-dock">
+<div class="flex items-center justify-between mb-4">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary animate-pulse"></span>
+<h2 class="font-title-md text-title-md text-on-surface font-bold">실시간 매장 운영 현황 비교</h2>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+            실시간 갱신 중 (연중무휴 영업)
+          </span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Branch 1: 평내본점 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 border border-surface-variant elevation-ambient transition-all duration-300 relative group overflow-hidden">
+<div class="absolute top-0 left-0 w-2 h-full bg-primary"></div>
+<div class="flex items-start justify-between gap-4 mb-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-md text-label-md font-bold">
+                    평내 본점
+                  </span>
+<span class="inline-flex items-center gap-1 text-[13px] font-bold text-primary">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+                    영업중 (08:30 ~ 23:00)
+                  </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">E플러스마트 평내점</h3>
+</div>
+<span class="material-symbols-outlined text-3xl text-primary/40 group-hover:text-primary transition-colors">storefront</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">location_on</span>
+              경기 남양주시 경춘로 1291 (평내동) · 평내호평역 도보권
+            </p>
+<!-- Amenities Badges -->
+<div class="grid grid-cols-2 gap-2 mb-6 text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low p-3 rounded-xl">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">local_parking</span>
+<span>전용 주차장 30여 대 여유</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">elevator</span>
+<span>OTIS 대형 승강기 완비</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">call</span>
+<span>직통: 031-574-1134</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-primary text-[18px]">payments</span>
+<span>남양주지역화폐 사용처</span>
+</div>
+</div>
+<!-- Branch Action Buttons -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold transition-colors" href="https://map.kakao.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">near_me</span>
+                카카오맵 길찾기
+              </a>
+<a class="inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-tertiary-container transition-colors" href="tel:031-574-1134">
+<span class="material-symbols-outlined text-[18px]">phone_in_talk</span>
+                매장 바로 전화걸기
+              </a>
+</div>
+</div>
+<!-- Branch 2: 퇴계원점 -->
+<div class="bg-surface-container-lowest rounded-2xl p-6 border border-surface-variant elevation-ambient transition-all duration-300 relative group overflow-hidden">
+<div class="absolute top-0 left-0 w-2 h-full bg-secondary-container"></div>
+<div class="flex items-start justify-between gap-4 mb-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container/15 text-secondary font-label-md text-label-md font-bold">
+                    퇴계원점
+                  </span>
+<span class="inline-flex items-center gap-1 text-[13px] font-bold text-secondary">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+                    영업중 (08:30 ~ 22:30)
+                  </span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">E플러스마트 퇴계원점</h3>
+</div>
+<span class="material-symbols-outlined text-3xl text-secondary-container/40 group-hover:text-secondary-container transition-colors">store</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4 flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">location_on</span>
+              경기 남양주시 퇴계원로 20 (퇴계원읍) · 역세권 위치
+            </p>
+<!-- Amenities Badges -->
+<div class="grid grid-cols-2 gap-2 mb-6 text-on-surface-variant font-body-sm text-body-sm bg-surface-container-low p-3 rounded-xl">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">train</span>
+<span>퇴계원역 도보 3분 초역세권</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">shopping_cart</span>
+<span>신선 식자재 밀착형 쇼핑</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">call</span>
+<span>직통: 031-574-1135</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">receipt_long</span>
+<span>종량제봉투 상시공급</span>
+</div>
+</div>
+<!-- Branch Action Buttons -->
+<div class="grid grid-cols-2 gap-3 pt-2">
+<a class="inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-surface-container-low hover:bg-surface-container-high text-on-surface font-label-md text-label-md font-semibold transition-colors" href="https://map.kakao.com" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">near_me</span>
+                카카오맵 길찾기
+              </a>
+<a class="inline-flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl bg-secondary-container text-on-secondary font-label-md text-label-md font-semibold hover:bg-secondary transition-colors" href="tel:031-574-1135">
+<span class="material-symbols-outlined text-[18px]">phone_in_talk</span>
+                매장 바로 전화걸기
+              </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. SIGNATURE 4 CORNERS & STORE CONVENIENCE AMENITIES -->
+<section class="py-16 bg-surface-container-lowest border-y border-surface-variant" id="corners">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+<div>
+<span class="text-primary font-label-lg text-label-lg font-bold tracking-wide uppercase">Core Freshness &amp; Value</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold mt-1">
+            E플러스마트만의 엄선된 4대 특화 코너
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+            산지 농가와의 직거래부터 매일 아침 정성으로 조리하는 수제 반찬까지 차별화된 신선함을 보장합니다.
+          </p>
+</div>
+<div class="mt-4 md:mt-0">
+<span class="inline-flex items-center gap-1 text-primary font-label-md text-label-md font-bold">
+<span class="material-symbols-outlined text-[18px]">shield</span>
+            품질 불만족 시 100% 교환·환불 보장제 실시
+          </span>
+</div>
+</div>
+<!-- Bento Grid 4 Feature Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+<!-- Corner 01: 신선 농산 -->
+<div class="bg-surface rounded-2xl border border-surface-variant overflow-hidden flex flex-col elevation-hover transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A brightly lit modern grocery produce display overflowing with crisp greens, vibrant ripe fruits, organic apples and sparkling dew droplets under warm high-key natural illumination. The atmosphere conveys morning freshness and high-tier organic supermarket aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGKjmFYnJUey7IXZomseDETFdVNTkwIpSbltVSLw8j4dyDc__b29NjAEwSf6X6CPlwriD8_xNm0KptMy5AvyrIx_LBu48TXAfZAmnYKnDBX0eIy11QBIbhilDG3ZeIbg55-iziO0xSj2iCsGW15GbltwlANDhsW1R21ND9swroStS4vxZZaSfW_AlR_PJ4LzJ06opkAfr2f0R2oIx89j_TJZJPoSkLxqd33ZhUYlvgH8HIvsrLR5cJeozaEXyStp7unhsIdUsx2sg"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary text-on-primary font-label-xs text-label-xs font-bold shadow">
+              01 산지직송
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-2">
+                신선 농산·청과 코너
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                가락동 농수산물 도매시장 및 전국 산지 계약재배를 통해 매일 새벽 직송되는 신선 농산물.
+              </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface border-t border-surface-variant/60 pt-3">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>새벽 입고 고당도 선별 과일</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[16px]">check_circle</span>
+<span>친환경 무농약 로컬 채소류</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Corner 02: 당일조리 수제 반찬 -->
+<div class="bg-surface rounded-2xl border border-surface-variant overflow-hidden flex flex-col elevation-hover transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="An artisanal Korean side-dish kitchen deli corner inside an upscale supermarket, featuring freshly cooked banchan, savory glazed side dishes, stir-fries and homemade soups presented in clean eco-friendly clear containers under warm golden kitchen spotlights." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAbuMb9l0qldeCT6ugMRKE87nHjgNft2zgpUajQxtrAP11ibhF39mRWpPv3gTTlHMQNwJgwkv8UXEvUHkAiq1X67zlhyzvDJWXX76GOTFtxhC8PqGAchDtyO0t1ogaJj6qjcYA9jZrw5q9YvxHTn8_pIVcPcBCf3SJkVbJzSL5K32MNLMaXq25giAqHI42YX6AHW3cc8qU5PvI_vsU4bC_6hThPNVOPyablhEvCvPHMTunvMr4VrTXwOgynGcDyE2xPdaf5lzHjM4A"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-secondary-container text-on-secondary font-label-xs text-label-xs font-bold shadow">
+              02 당일 즉석조리
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-2">
+                어머니 손맛 수제반찬
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                전문 조리사가 매일 아침 직접 천연 조미료로 볶고 무치는 영양 가득한 가정식 밑반찬과 국·찌개.
+              </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface border-t border-surface-variant/60 pt-3">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[16px]">check_circle</span>
+<span>당일 조리 및 당일 소진 원칙</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[16px]">check_circle</span>
+<span>인기 반찬 3팩 골라담기 만원전</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Corner 03: 공산·식자재 -->
+<div class="bg-surface rounded-2xl border border-surface-variant overflow-hidden flex flex-col elevation-hover transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A modern well-organized wholesale grocery aisle with perfectly stacked bulk pantry items, sauces, organic grains, and domestic culinary essentials under bright crisp LED grocery store illumination, conveying abundance and competitive pricing." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDI7mfHc-gJYHPLOgou8s-r8AkTuP7Kh2teuIPeoNkHjEV-JWmFUMJKl4Jgfb2t5zXbz8jZSqM8IWNF8JUbqKmXQ3JrL9R-dv7ysBpJ6k0aXCcmSWDaA9Xn5lOzuoBXMUtcipwEtIGDZFvgU-3IdBQq6L28oSsn8PmZnDA2B6pH1r5vIKFhqfq8oVmbz2sl_ulqqox4shTK5WpKEcyHnbn_y3vi8oeOHMRfnEiMGMsI2NNwthGGp-RoAFLJGJTlM0J9V_SEPEzFFpE"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-tertiary-container text-on-tertiary font-label-xs text-label-xs font-bold shadow">
+              03 알뜰 대용량
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-2">
+                엄선 공산 &amp; 대용량 식자재
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                유명 브랜드 가공식품부터 요식업소 및 가정용 대용량 식자재까지 거품 없는 파격 할인 공급.
+              </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface border-t border-surface-variant/60 pt-3">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container text-[16px]">check_circle</span>
+<span>업소용 식용유·간장·쌀 특가</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-tertiary-container text-[16px]">check_circle</span>
+<span>주기적 1+1 행사 및 박스 할인</span>
+</li>
+</ul>
+</div>
+</div>
+<!-- Corner 04: 남양주시 지정 판매소 -->
+<div class="bg-surface rounded-2xl border border-surface-variant overflow-hidden flex flex-col elevation-hover transition-all duration-300">
+<div class="relative h-48 w-full overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="A clean customer service desk in a premium modern supermarket showing organized civic goods, regional pay certificate banners, and helpful staff assisting community members in a bright, inviting customer-centric environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC5VYgGExOtzG8lwZlBXpXAARy8VzmGYIDKT-yBaY1cBEvyeQEyVZ_vkUCbLyaccfi9GiC2qNYhvwL9YOh1ed7RjaumaMmfSIN7bJQMuKvFOqmW84iBAfNyxiW9SRiZ-7nM1VFIa261eBqP0IHk5DDlOvUFT2LNFRkL6BpA_vu5jvRhwfQOyBEwrzP0OhGAiPz7w9B4pWBctyqCo2NSRY5JwlSGB3o2WhqJSfG3lBKz6_88Ov5Y9Ip4rFtKKuAyVsnTf_sP-kPV3Eo"/>
+<span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-outline text-on-primary font-label-xs text-label-xs font-bold shadow">
+              04 지역 공식지정
+            </span>
+</div>
+<div class="p-6 flex-1 flex flex-col justify-between">
+<div>
+<h3 class="font-title-md text-title-md text-on-surface font-bold mb-2">
+                남양주시 공식 판매소
+              </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                남양주시 종량제 쓰레기봉투 전 규격 상시 보유 및 대형폐기물 스티커, 지역화폐 결제 공식 지원.
+              </p>
+</div>
+<ul class="space-y-1.5 font-body-sm text-body-sm text-on-surface border-t border-surface-variant/60 pt-3">
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[16px]">check_circle</span>
+<span>규격별 종량제봉투 묶음/낱장</span>
+</li>
+<li class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[16px]">check_circle</span>
+<span>Thank You Pay 지역화폐 혜택</span>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- Convenience Highlights 3-Col Grid -->
+<div class="mt-8 bg-surface-container-low rounded-2xl p-6 sm:p-8 border border-surface-variant">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold text-center mb-6">
+          고객 편의를 위한 3대 특화 인프라
+        </h3>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex items-start gap-4 bg-surface-container-lowest p-5 rounded-xl border border-surface-variant/40">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">elevator</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold mb-1">OTIS 정품 대형 엘리베이터</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                무거운 쇼핑 카트와 유모차, 휠체어도 턱 없이 안전하고 쾌적하게 각 층으로 편리하게 이동하실 수 있습니다.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-4 bg-surface-container-lowest p-5 rounded-xl border border-surface-variant/40">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">local_parking</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold mb-1">여유로운 전용 주차장</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                평내점 지상 전용 주차장(30여 대 주차 공간)을 구비하여 비나 눈이 와도 여유롭게 장보기가 가능합니다.
+              </p>
+</div>
+</div>
+<div class="flex items-start gap-4 bg-surface-container-lowest p-5 rounded-xl border border-surface-variant/40">
+<div class="w-12 h-12 rounded-xl bg-secondary-container/15 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-2xl">phonelink_ring</span>
+</div>
+<div>
+<h4 class="font-title-md text-title-md text-on-surface font-bold mb-1">이플러스마트 모바일 전용 앱</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                종이영수증 없는 전자영수증 확인, 결제 시 1% 포인트 즉시 적립 및 깜짝 세일 푸시 알림을 제공합니다.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. WEEKLY SALE FLYERS & STORE NOTICES HUB -->
+<section class="py-16" id="flyers">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-10">
+<div>
+<span class="text-secondary-container font-label-lg text-label-lg font-bold uppercase tracking-wider">Sale &amp; Community Notices</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold mt-1">
+            금주의 세일전단 &amp; 매장소식
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-1">
+            매주 새롭게 갱신되는 알뜰 쇼핑 전단과 공지사항을 놓치지 마세요.
+          </p>
+</div>
+<div class="mt-4 md:mt-0 flex gap-2">
+<button class="px-4 py-2 rounded-xl bg-surface-container-lowest border border-outline-variant text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-low transition-colors" type="button">
+            전단 PDF 다운로드
+          </button>
+<button class="px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-tertiary-container transition-colors" type="button">
+            카카오톡 전단 구독
+          </button>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Interactive Sale Flyer Cards (2 Cols in desktop) -->
+<div class="lg:col-span-2 space-y-6">
+<!-- Flyer 1: Main Highlight -->
+<div class="bg-surface-container-lowest rounded-2xl border border-surface-variant overflow-hidden elevation-ambient flex flex-col md:flex-row group">
+<div class="md:w-5/12 relative h-64 md:h-auto overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="An eye-catching, vivid Korean supermarket weekly sale leaflet layout displaying juicy Korean native beef, fresh pork belly slices, and sweet shine muscat grapes against clean forest green and orange decorative graphic ribbons." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTFPFAwrVBk092q1pJuvKX-Dm-rQljwx0jQ_5jZ8wNHLUJ6Ck9q5gSzU94eT0_XF5fL8muY5SeiRUM8gm7QgsbwnkBQXGocUEi7P_nA8MPMZhmbXCYfYooX9A7GLb3MxyesY7kyCsHsgwce7LUQgBJyk1IJzyRccNOiT9r81w2FfD4ScqrBpur5MJd8VMlXzNRzVwLUz0Arg7TmfalTBsP8g-wNVw3DizR7wqPrSomF72baZkPeBPNEiu-5mNfMSNMFQkDPFncUYw"/>
+<span class="absolute top-3 left-3 bg-secondary-container text-on-secondary px-3 py-1 rounded-full font-label-xs text-label-xs font-bold uppercase">
+                주말 3일간 반값 릴레이
+              </span>
+</div>
+<div class="md:w-7/12 p-6 flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm mb-2">
+<span class="material-symbols-outlined text-[16px] text-primary">calendar_today</span>
+<span>행사기간: 이번 주 금, 토, 일 (3일간 한정)</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold mb-3">
+                  주말 3일간 반값 릴레이 대특가전
+                </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                  1등급 한우 등심/불고기, 고당도 샤인머스캣, 당일 산지직송 활꽃게 등 온 가족 풍성한 주말 식탁을 위한 한정 수량 초특가!
+                </p>
+</div>
+<div class="flex items-center gap-3 pt-3 border-t border-surface-variant">
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-tertiary-container transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">zoom_in</span>
+                  전단 고화질 확대보기
+                </button>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-xl bg-surface-container-low text-on-surface font-label-md text-label-md font-semibold hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+                  카카오톡 공유
+                </button>
+</div>
+</div>
+</div>
+<!-- Flyer Sub Grid: 2 Smaller Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<!-- Sub Flyer 1 -->
+<div class="bg-surface-container-lowest rounded-2xl border border-surface-variant p-5 elevation-ambient flex flex-col justify-between">
+<div>
+<span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-xs text-label-xs font-bold inline-block mb-3">
+                  산지직송 기획전
+                </span>
+<h4 class="font-title-md text-title-md text-on-surface font-bold mb-2">
+                  제철 농수산물 특가 모음전
+                </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                  제주 서귀포 노지감귤, 해남 절임배추, 통영 청정해역 생굴 당일 입고 특별 세일!
+                </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-surface-variant/60 font-label-md text-label-md">
+<span class="text-primary font-bold">전 품목 최대 35% 할인</span>
+<button class="text-on-surface-variant hover:text-primary flex items-center gap-0.5" type="button">
+                  상세보기 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Sub Flyer 2 -->
+<div class="bg-surface-container-lowest rounded-2xl border border-surface-variant p-5 elevation-ambient flex flex-col justify-between">
+<div>
+<span class="px-2.5 py-0.5 rounded-full bg-secondary-container/15 text-secondary font-label-xs text-label-xs font-bold inline-block mb-3">
+                  수제반찬 행사
+                </span>
+<h4 class="font-title-md text-title-md text-on-surface font-bold mb-2">
+                  수제반찬 3종 골라담기 10,000원
+                </h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                  멸치볶음, 진미채, 나물류, 찌개 밀키트 등 인기 반찬 3종류를 실속 만 원 특가에 제공합니다.
+                </p>
+</div>
+<div class="flex items-center justify-between pt-3 border-t border-surface-variant/60 font-label-md text-label-md">
+<span class="text-secondary font-bold">오후 2시 ~ 마감 시까지</span>
+<button class="text-on-surface-variant hover:text-secondary flex items-center gap-0.5" type="button">
+                  상세보기 <span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Pinned Store Notices List (1 Col in desktop) -->
+<div class="bg-surface-container-lowest rounded-2xl border border-surface-variant p-6 elevation-ambient flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between pb-4 border-b border-surface-variant mb-4">
+<h3 class="font-title-md text-title-md text-on-surface font-bold flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">campaign</span>
+                매장 공지사항
+              </h3>
+<a class="font-label-md text-label-md text-on-surface-variant hover:text-primary" href="#">전체보기</a>
+</div>
+<div class="space-y-4">
+<div class="pb-3 border-b border-surface-variant/50">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-primary/10 text-primary font-label-xs text-label-xs font-bold">공지</span>
+<span class="text-outline text-label-xs">2025.01.18</span>
+</div>
+<a class="font-label-lg text-label-lg font-bold text-on-surface hover:text-primary transition-colors block" href="#">
+                  2025 설 명절 연중무휴 정상영업 및 배송 스케줄 안내
+                </a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-1">
+                  설 연휴 기간에도 평내점 및 퇴계원점은 오전 08:30부터 정상 운영됩니다.
+                </p>
+</div>
+<div class="pb-3 border-b border-surface-variant/50">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-secondary-container/15 text-secondary font-label-xs text-label-xs font-bold">이벤트</span>
+<span class="text-outline text-label-xs">2025.01.15</span>
+</div>
+<a class="font-label-lg text-label-lg font-bold text-on-surface hover:text-primary transition-colors block" href="#">
+                  이플러스마트 모바일 앱 신규 가입 시 3,000원 할인쿠폰 증정
+                </a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-1">
+                  앱 설치 후 최초 로그인 시 평내점/퇴계원점 즉시 사용 쿠폰이 발급됩니다.
+                </p>
+</div>
+<div class="pb-3 border-b border-surface-variant/50">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-label-xs text-label-xs font-bold">안내</span>
+<span class="text-outline text-label-xs">2025.01.10</span>
+</div>
+<a class="font-label-lg text-label-lg font-bold text-on-surface hover:text-primary transition-colors block" href="#">
+                  남양주 지역화폐 (Thank You Pay) 가맹 및 종량제봉투 공급
+                </a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-1">
+                  지역화폐 충전 인센티브 혜택 적용 및 쓰레기 종량제 봉투 정품 판매처입니다.
+                </p>
+</div>
+<div class="pb-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-primary/10 text-primary font-label-xs text-label-xs font-bold">안내</span>
+<span class="text-outline text-label-xs">2025.01.05</span>
+</div>
+<a class="font-label-lg text-label-lg font-bold text-on-surface hover:text-primary transition-colors block" href="#">
+                  평내점 OTIS 대형 엘리베이터 정기 안전점검 완료
+                </a>
+<p class="font-body-sm text-body-sm text-on-surface-variant line-clamp-1 mt-1">
+                  한국승강기안전공단 정기검사 A등급 판정으로 안심하고 탑승하실 수 있습니다.
+                </p>
+</div>
+</div>
+</div>
+<div class="mt-6 p-4 rounded-xl bg-surface-container-low border border-surface-variant/60 flex items-center justify-between">
+<div>
+<p class="font-label-xs text-label-xs text-on-surface-variant">고객센터 전화상담</p>
+<p class="font-headline-sm text-headline-sm font-bold text-primary">031-574-1134</p>
+</div>
+<a class="p-2.5 rounded-full bg-primary text-on-primary hover:bg-tertiary-container transition-colors" href="tel:031-574-1134">
+<span class="material-symbols-outlined">call</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. ONE-CLICK RECRUITING HUB (HIGH-CONVERSION SECTION) -->
+<section class="py-16 bg-gradient-to-b from-surface to-surface-container-low border-t border-surface-variant" id="recruitment">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<!-- Section Header with High-Trust Tone -->
+<div class="text-center max-w-3xl mx-auto mb-12">
+<span class="inline-flex items-center gap-1.5 px-3.5 py-1 rounded-full bg-secondary-container/15 text-secondary font-label-sm text-label-sm font-bold mb-3">
+<span class="material-symbols-outlined text-[16px]">groups</span>
+          함께 성장할 소중한 가족을 모십니다
+        </span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-extrabold">
+          (주)피케이유통 E플러스마트 평내점·퇴계원점 인재채용
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-3">
+          지역 사회와 함께 호흡하며 건강한 식문화를 만들어갈 열정 넘치는 분들을 환영합니다. 초보자도 친절하게 교육해 드립니다.
+        </p>
+</div>
+<!-- 4 Bold Welfare Metrics Strip -->
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-12">
+<div class="bg-surface-container-lowest p-6 rounded-2xl border border-surface-variant text-center elevation-ambient">
+<span class="material-symbols-outlined text-3xl text-secondary-container mb-2">payments</span>
+<p class="font-headline-sm text-headline-sm font-extrabold text-primary">월 260만 원 이상</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">포지션 및 경력자 우대 협의</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl border border-surface-variant text-center elevation-ambient">
+<span class="material-symbols-outlined text-3xl text-primary mb-2">event_available</span>
+<p class="font-headline-sm text-headline-sm font-extrabold text-primary">주 5일 근무제</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">법정공휴일·대체휴무 100% 보장</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl border border-surface-variant text-center elevation-ambient">
+<span class="material-symbols-outlined text-3xl text-primary mb-2">security</span>
+<p class="font-headline-sm text-headline-sm font-extrabold text-primary">4대보험 &amp; 퇴직금</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">정규직 전환 및 장기근속 포상</p>
+</div>
+<div class="bg-surface-container-lowest p-6 rounded-2xl border border-surface-variant text-center elevation-ambient">
+<span class="material-symbols-outlined text-3xl text-secondary-container mb-2">pin_drop</span>
+<p class="font-headline-sm text-headline-sm font-extrabold text-primary">평내점 · 퇴계원점</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">거주지 인접 매장 우선 배치</p>
+</div>
+</div>
+<!-- Main Recruiting Content: Position Cards + Simple Form -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+<!-- Left: Open Position Cards (7 cols) -->
+<div class="lg:col-span-7 space-y-4">
+<h3 class="font-title-md text-title-md font-bold text-on-surface mb-2 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">badge</span>
+            현재 모집 중인 채용 포지션
+          </h3>
+<!-- Position 1 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-surface-variant elevation-ambient flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-primary/10 text-primary font-label-xs text-label-xs font-bold">신입/경력무관</span>
+<span class="text-outline text-label-xs font-medium">평내점 / 퇴계원점</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">계산원 (캐셔) 파트</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                고객 응대 및 포스 결제, 멤버십 적립 안내 / 밝은 미소와 친절한 매너를 가지신 분
+              </p>
+</div>
+<span class="shrink-0 text-right">
+<span class="block font-label-lg text-label-lg font-bold text-primary">시급 10,030원+</span>
+<span class="text-outline text-label-xs">주휴수당 별도 지급</span>
+</span>
+</div>
+<!-- Position 2 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-surface-variant elevation-ambient flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-secondary-container/15 text-secondary font-label-xs text-label-xs font-bold">정규직/계약직</span>
+<span class="text-outline text-label-xs font-medium">평내점 본점</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">공산품 관리 및 물류 파트</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                상품 입출고 검수, 매장 진열 및 재고 관리 / 건강한 체력 소유자 및 동종 업계 경력 우대
+              </p>
+</div>
+<span class="shrink-0 text-right">
+<span class="block font-label-lg text-label-lg font-bold text-primary">월 260만 ~ 280만</span>
+<span class="text-outline text-label-xs">경력별 차등 협의</span>
+</span>
+</div>
+<!-- Position 3 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-surface-variant elevation-ambient flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-primary/10 text-primary font-label-xs text-label-xs font-bold">팀장 및 사원</span>
+<span class="text-outline text-label-xs font-medium">평내점 / 퇴계원점</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">농산팀 청과·채소 전문인력</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                청과/야채 신선도 점검, 손질 및 소포장 작업 / 마트 농산 코너 근무 경력자 특별 우대
+              </p>
+</div>
+<span class="shrink-0 text-right">
+<span class="block font-label-lg text-label-lg font-bold text-primary">월 280만 ~ 330만</span>
+<span class="text-outline text-label-xs">직급 수당 추가</span>
+</span>
+</div>
+<!-- Position 4 -->
+<div class="bg-surface-container-lowest p-5 rounded-2xl border border-surface-variant elevation-ambient flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="px-2 py-0.5 rounded bg-secondary-container/15 text-secondary font-label-xs text-label-xs font-bold">주방경력 환영</span>
+<span class="text-outline text-label-xs font-medium">평내점 본점</span>
+</div>
+<h4 class="font-title-md text-title-md font-bold text-on-surface">수제 반찬 즉석조리원</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+                매일 아침 수제 밑반찬 조리 및 용기 포장, 위생 관리 / 한식 조리 경험자 적극 환영
+              </p>
+</div>
+<span class="shrink-0 text-right">
+<span class="block font-label-lg text-label-lg font-bold text-primary">월 260만 ~ 300만</span>
+<span class="text-outline text-label-xs">식사 및 유니폼 제공</span>
+</span>
+</div>
+<!-- Quick Contact Alternative -->
+<div class="p-4 rounded-xl bg-surface-container-high/60 border border-surface-variant flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface">
+              인터넷 작성이 어려우신가요? 전화나 문자로도 편하게 지원하세요!
+            </span>
+<div class="flex gap-2">
+<a class="px-3 py-1.5 rounded-lg bg-surface-container-lowest border border-outline-variant font-label-sm text-label-sm font-bold text-on-surface hover:bg-surface-container-low" href="tel:031-574-1134">
+                전화지원
+              </a>
+<a class="px-3 py-1.5 rounded-lg bg-primary text-on-primary font-label-sm text-label-sm font-bold hover:bg-tertiary-container" href="sms:010-0000-0000">
+                문자지원
+              </a>
+</div>
+</div>
+</div>
+<!-- Right: Non-login Simple 30-Second Web Application Form (5 cols) -->
+<div class="lg:col-span-5 bg-surface-container-lowest p-6 sm:p-8 rounded-2xl border-2 border-primary/20 elevation-ambient sticky top-28" id="recruitment-form">
+<div class="flex items-center justify-between pb-4 border-b border-surface-variant mb-5">
+<div>
+<span class="inline-flex items-center gap-1 font-label-xs text-label-xs font-bold text-secondary-container uppercase">Quick Apply</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-extrabold">30초 간편 웹 입사지원</h3>
+</div>
+<span class="w-8 h-8 rounded-full bg-secondary-container text-on-secondary flex items-center justify-center font-bold text-sm">
+<span class="material-symbols-outlined text-[18px]">bolt</span>
+</span>
+</div>
+<form class="space-y-4" onsubmit="event.preventDefault(); alert('간편 입사지원이 성공적으로 접수되었습니다. (주)피케이유통 채용담당자가 빠른 시간 내 연락드리겠습니다.');">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">지원자 성명 *</label>
+<input class="w-full px-3.5 py-2.5 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-md text-body-md bg-surface-container-lowest" placeholder="홍길동" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">연락처 (휴대폰) *</label>
+<input class="w-full px-3.5 py-2.5 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-md text-body-md bg-surface-container-lowest" placeholder="010-1234-5678" required="" type="tel"/>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">거주 지역 (동 단위) *</label>
+<input class="w-full px-3.5 py-2.5 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-md text-body-md bg-surface-container-lowest" placeholder="예: 평내동, 호평동" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">희망 근무지점 *</label>
+<select class="w-full px-3.5 py-2.5 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-md text-body-md bg-surface-container-lowest">
+<option value="pyeongnae">평내 본점</option>
+<option value="toegyewon">퇴계원점</option>
+<option value="both">양쪽 지점 무관</option>
+</select>
+</div>
+</div>
+<div class="grid grid-cols-2 gap-3">
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">희망 지원파트 *</label>
+<select class="w-full px-3.5 py-2.5 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-md text-body-md bg-surface-container-lowest">
+<option value="cashier">계산원 (캐셔)</option>
+<option value="logistics">공산품 관리 / 물류</option>
+<option value="produce">농산팀 청과·채소</option>
+<option value="banchan">수제 반찬 즉석조리</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">동종업계 경력 여부</label>
+<select class="w-full px-3.5 py-2.5 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-md text-body-md bg-surface-container-lowest">
+<option value="new">신입 (경력 없음)</option>
+<option value="under1">1년 미만</option>
+<option value="over1">1년 이상 (경력자)</option>
+</select>
+</div>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface font-semibold mb-1">간단 메모 / 문의사항</label>
+<textarea class="w-full px-3.5 py-2 rounded-xl border border-surface-variant focus:border-primary focus:ring-2 focus:ring-primary/20 font-body-sm text-body-sm bg-surface-container-lowest" placeholder="출근 가능 일자나 희망 근무시간대를 자유롭게 적어주세요." rows="2"></textarea>
+</div>
+<div class="pt-2">
+<button class="w-full py-3.5 px-4 rounded-xl bg-secondary-container hover:bg-secondary text-on-secondary font-label-lg text-label-lg font-bold shadow-md active:scale-98 transition-all flex items-center justify-center gap-2" type="submit">
+<span class="material-symbols-outlined">send</span>
+                30초 입사지원서 제출하기
+              </button>
+</div>
+<p class="font-label-xs text-label-xs text-outline text-center">
+              입력하신 개인정보는 (주)피케이유통 채용 전형 목적으로만 활용되며 안전하게 보호됩니다.
+            </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. MOBILE APP PROMO & B2B WHOLESALE PARTNERSHIP -->
+<section class="py-16 bg-surface-container-lowest border-t border-surface-variant" id="app-download">
+<div class="max-w-7xl mx-auto px-4 md:px-8">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+<!-- App Promo Card -->
+<div class="bg-gradient-to-br from-primary to-tertiary text-on-primary rounded-2xl p-8 elevation-ambient flex flex-col justify-between relative overflow-hidden">
+<div class="relative z-10">
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary-fixed text-primary font-label-xs text-label-xs font-bold mb-4">
+<span class="material-symbols-outlined text-[16px]">smartphone</span>
+              E플러스마트 스마트 쇼핑
+            </span>
+<h3 class="font-headline-md text-headline-md font-extrabold mb-3">
+              스마트폰 하나로 전단 확인부터 포인트 적립까지!
+            </h3>
+<p class="font-body-md text-body-md text-on-primary-container max-w-md mb-6">
+              이플러스마트 전용 앱 설치 시 전자영수증 보관, 1% 즉시 적립, 깜짝 타임세일 알림 혜택을 드립니다.
+            </p>
+<div class="flex flex-wrap gap-3 mb-6">
+<a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold shadow hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-primary">play_arrow</span>
+                Google Play 다운로드
+              </a>
+<a class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md font-bold shadow hover:bg-surface-container-low transition-colors" href="#">
+<span class="material-symbols-outlined text-primary">ios</span>
+                App Store 다운로드
+              </a>
+</div>
+</div>
+<div class="relative z-10 pt-4 border-t border-tertiary-container flex items-center gap-4 text-on-primary-container font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-2xl">qr_code_scanner</span>
+<span>매장 내 안내 데스크에서 QR코드를 스캔하시면 10초 만에 간편 설치됩니다.</span>
+</div>
+<!-- Abstract background shape -->
+<div class="absolute -right-10 -bottom-10 w-60 h-60 rounded-full bg-primary-container/40 pointer-events-none"></div>
+</div>
+<!-- B2B Wholesale & Partner Inquiries Card -->
+<div class="bg-surface rounded-2xl border border-surface-variant p-8 elevation-ambient flex flex-col justify-between" id="b2b">
+<div>
+<span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-surface-container-high text-on-surface font-label-xs text-label-xs font-bold mb-4">
+<span class="material-symbols-outlined text-[16px]">handshake</span>
+              B2B 대량납품 &amp; 우수농가 입점제휴
+            </span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-extrabold mb-3">
+              남양주 관내 식당·기업체 정기 식자재 납품 문의
+            </h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+              어린이집, 요양원, 요식업체 정기 식자재 직배송 및 지역 우수 농가 직거래 신규 상품 입점을 제안해 주세요.
+            </p>
+<form class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-4" onsubmit="event.preventDefault(); alert('B2B 문의가 접수되었습니다. (주)피케이유통 유통영업팀에서 견적서 및 안내자료를 신속히 전달드리겠습니다.');">
+<div>
+<input class="w-full px-3 py-2 rounded-xl border border-surface-variant focus:border-primary font-body-sm text-body-sm bg-surface-container-lowest" placeholder="업체/단체명" required="" type="text"/>
+</div>
+<div>
+<input class="w-full px-3 py-2 rounded-xl border border-surface-variant focus:border-primary font-body-sm text-body-sm bg-surface-container-lowest" placeholder="담당자명 &amp; 직함" required="" type="text"/>
+</div>
+<div>
+<input class="w-full px-3 py-2 rounded-xl border border-surface-variant focus:border-primary font-body-sm text-body-sm bg-surface-container-lowest" placeholder="연락처 (휴대전화/직통)" required="" type="tel"/>
+</div>
+<div>
+<input class="w-full px-3 py-2 rounded-xl border border-surface-variant focus:border-primary font-body-sm text-body-sm bg-surface-container-lowest" placeholder="납품 희망 품목 (예: 쌀, 채소, 가공)" type="text"/>
+</div>
+<div class="sm:col-span-2">
+<button class="w-full py-2.5 rounded-xl bg-primary hover:bg-tertiary-container text-on-primary font-label-md text-label-md font-bold transition-colors" type="submit">
+                  B2B 제휴 및 대량납품 견적 상담 신청
+                </button>
+</div>
+</form>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant flex items-center gap-1.5 pt-2 border-t border-surface-variant/50">
+<span class="material-symbols-outlined text-primary text-[18px]">support_agent</span>
+<span>B2B 직통 상담 전화: 031-574-1134 (평일 09:00 ~ 18:00)</span>
+</p>
+</div>
+</div>
+</div>
+</section>
+<!-- SHARED COMPONENT: Footer (Corporate Footer from JSON Source of Truth) -->
+<footer class="bg-surface-container-highest dark:bg-surface-container docked full-width bottom border-t border-surface-variant dark:border-outline">
+<div class="w-full max-w-7xl mx-auto px-4 md:px-8 py-12 flex flex-col md:flex-row justify-between items-start gap-8">
+<!-- Brand & Corporate Identity Info -->
+<div class="space-y-4 max-w-xl">
+<div class="flex items-center gap-2">
+<span class="font-headline-sm text-headline-sm font-bold text-primary dark:text-inverse-primary">
+            (주)피케이유통 E플러스마트
+          </span>
+<span class="px-2 py-0.5 rounded bg-surface-container text-on-surface-variant font-label-xs text-label-xs">
+            남양주 직영 공식허브
+          </span>
+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant space-y-1">
+<p>상호명: (주)피케이유통 E플러스마트 | 대표이사: 대표이사 | 사업자등록번호: 394-27-01240</p>
+<p><strong>평내점:</strong> 경기도 남양주시 경춘로 1291 (평내동) | TEL: 031-574-1134</p>
+<p><strong>퇴계원점:</strong> 경기도 남양주시 퇴계원로 20 (퇴계원읍) | TEL: 031-574-1135</p>
+<p>고객센터 운영시간: 08:30 ~ 23:00 (연중무휴) | 대량구매 및 B2B 납품 상담 지원</p>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant dark:text-surface-variant pt-2 border-t border-surface-variant/60">
+          Copyright © (주)피케이유통 E플러스마트 All Rights Reserved. 사업자등록번호: 394-27-01240
+        </p>
+</div>
+<!-- Links Cluster (Strictly Exact JSON Labels & URLs) -->
+<div class="flex flex-col sm:flex-row gap-8 lg:gap-12 text-on-surface-variant dark:text-surface-variant font-label-md text-label-md">
+<div>
+<h4 class="font-title-md text-title-md font-bold text-primary dark:text-inverse-primary mb-3">지점 안내</h4>
+<ul class="space-y-2">
+<li><a class="hover:text-primary dark:hover:text-inverse-primary hover:underline transition-colors duration-200" href="https://map.kakao.com" rel="noopener noreferrer" target="_blank">평내점 오시는 길</a></li>
+<li><a class="hover:text-primary dark:hover:text-inverse-primary hover:underline transition-colors duration-200" href="https://map.kakao.com" rel="noopener noreferrer" target="_blank">퇴계원점 오시는 길</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-bold text-primary dark:text-inverse-primary mb-3">고객 지원 &amp; 약관</h4>
+<ul class="space-y-2">
+<li><a class="hover:text-primary dark:hover:text-inverse-primary hover:underline transition-colors duration-200" href="#">개인정보처리방침</a></li>
+<li><a class="hover:text-primary dark:hover:text-inverse-primary hover:underline transition-colors duration-200" href="#">이용약관</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-title-md text-title-md font-bold text-primary dark:text-inverse-primary mb-3">기업 제휴 &amp; 채용</h4>
+<ul class="space-y-2">
+<li><a class="hover:text-primary dark:hover:text-inverse-primary hover:underline transition-colors duration-200" href="#b2b">B2B 납품·제휴문의</a></li>
+<li><a class="hover:text-primary dark:hover:text-inverse-primary hover:underline transition-colors duration-200" href="#recruitment">인재채용</a></li>
+</ul>
+</div>
+</div>
+</div>
+</footer>
+</body></html>

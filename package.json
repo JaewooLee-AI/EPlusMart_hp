@@ -1,0 +1,10 @@
+{
+  "name": "eplusmart-pyeongnae-homepage",
+  "version": "1.0.0",
+  "private": true,
+  "description": "(주)피케이유통 E플러스마트 평내점 & 퇴계원점 공식 홈페이지 (Stitch 모던 디자인 · 비로그인 무DB 허브)",
+  "scripts": {
+    "dev": "python3 -m http.server 4173",
+    "start": "python3 -m http.server 4173"
+  }
+}
