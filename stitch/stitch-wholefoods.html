@@ -1,0 +1,1128 @@
+<!DOCTYPE html>
+
+<html class="light" lang="ko"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>E-PLUS MART - FRESH &amp; ORGANIC | 대한민국 프리미엄 유기농 푸드마켓</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,400&amp;family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Noto+Serif+KR:wght@500;700;900&amp;family=Pretendard:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "surface-container": "#dcf4e1",
+            "primary-container": "#046f46",
+            "secondary-fixed": "#ffdcc3",
+            "on-surface": "#0b1f14",
+            "on-secondary": "#ffffff",
+            "on-primary-fixed": "#002111",
+            "on-tertiary-container": "#ffd3c5",
+            "primary": "#005434",
+            "secondary-container": "#fe932c",
+            "background": "#e9ffed",
+            "inverse-primary": "#80d8a6",
+            "on-primary-fixed-variant": "#005232",
+            "surface-bright": "#e9ffed",
+            "inverse-on-surface": "#dff7e4",
+            "on-primary-container": "#96efbb",
+            "surface-container-high": "#d6eedc",
+            "on-tertiary-fixed-variant": "#832600",
+            "on-tertiary-fixed": "#390c00",
+            "tertiary-fixed-dim": "#ffb59d",
+            "on-error": "#ffffff",
+            "surface": "#e9ffed",
+            "on-error-container": "#93000a",
+            "on-secondary-container": "#663500",
+            "primary-fixed": "#9cf5c1",
+            "surface-tint": "#006d44",
+            "surface-dim": "#c8e0ce",
+            "primary-fixed-dim": "#80d8a6",
+            "on-tertiary": "#ffffff",
+            "error-container": "#ffdad6",
+            "secondary-fixed-dim": "#ffb77d",
+            "outline-variant": "#bec9bf",
+            "outline": "#6f7a71",
+            "surface-container-low": "#e1fae7",
+            "on-secondary-fixed": "#2f1500",
+            "surface-variant": "#d0e8d6",
+            "error": "#ba1a1a",
+            "on-background": "#0b1f14",
+            "tertiary-fixed": "#ffdbd0",
+            "on-secondary-fixed-variant": "#6e3900",
+            "surface-container-highest": "#d0e8d6",
+            "on-surface-variant": "#3f4942",
+            "inverse-surface": "#213528",
+            "on-primary": "#ffffff",
+            "tertiary-container": "#b03600",
+            "secondary": "#904d00",
+            "surface-container-lowest": "#ffffff",
+            "tertiary": "#872700"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter": "1.5rem",
+            "gutter-mobile": "0.75rem",
+            "space-lg": "1.5rem",
+            "space-xs": "0.25rem",
+            "space-xl": "2.5rem",
+            "space-md": "1rem",
+            "margin-mobile": "1rem",
+            "margin": "3rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "title-md": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "headline-sm": ["Merriweather", "Noto Serif KR", "serif"],
+            "title-lg": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "headline-md": ["Merriweather", "Noto Serif KR", "serif"],
+            "display-lg-mobile": ["Merriweather", "Noto Serif KR", "serif"],
+            "headline-lg-mobile": ["Merriweather", "Noto Serif KR", "serif"],
+            "display-lg": ["Merriweather", "Noto Serif KR", "serif"],
+            "label-md": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "body-lg": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "body-md": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "label-xs": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "label-lg": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "body-sm": ["Plus Jakarta Sans", "Pretendard", "sans-serif"],
+            "headline-lg": ["Merriweather", "Noto Serif KR", "serif"]
+          },
+          "fontSize": {
+            "title-md": ["16px", { "lineHeight": "24px", "fontWeight": "600" }],
+            "headline-sm": ["18px", { "lineHeight": "26px", "fontWeight": "700" }],
+            "title-lg": ["20px", { "lineHeight": "28px", "fontWeight": "600" }],
+            "headline-md": ["24px", { "lineHeight": "32px", "fontWeight": "700" }],
+            "display-lg-mobile": ["32px", { "lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["26px", { "lineHeight": "34px", "letterSpacing": "0em", "fontWeight": "700" }],
+            "display-lg": ["48px", { "lineHeight": "60px", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.02em", "fontWeight": "600" }],
+            "body-lg": ["16px", { "lineHeight": "26px", "fontWeight": "400" }],
+            "body-md": ["14px", { "lineHeight": "22px", "fontWeight": "400" }],
+            "label-xs": ["10px", { "lineHeight": "14px", "letterSpacing": "0.04em", "fontWeight": "700" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.01em", "fontWeight": "600" }],
+            "body-sm": ["12px", { "lineHeight": "18px", "fontWeight": "400" }],
+            "headline-lg": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "700" }]
+          }
+        }
+      }
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .material-symbols-fill {
+      font-variation-settings: 'FILL' 1, 'wght' 500, 'GRAD' 0, 'opsz' 24;
+    }
+    /* Natural Organic Texture Accents */
+    .bg-parchment {
+      background-color: #F9F8F5;
+    }
+    .bg-parchment-warm {
+      background-color: #F4F0EA;
+    }
+    .border-subtle-stone {
+      border-color: #EFECE6;
+    }
+  </style>
+</head>
+<body class="bg-parchment text-on-surface antialiased selection:bg-primary selection:text-white font-body-md text-body-md min-h-screen">
+<!-- ========================================== -->
+<!-- SECTION 1: Top Utility Header             -->
+<!-- ========================================== -->
+<header class="w-full bg-[#1A2E22] text-[#EFECE6] text-xs font-title-md border-none select-none">
+<div class="max-w-[1440px] mx-auto px-6 h-10 flex items-center justify-between">
+<!-- Left: Store Fulfillment Status -->
+<div class="flex items-center gap-3">
+<div class="flex items-center gap-1.5 text-secondary-container">
+<span class="material-symbols-outlined text-[16px] text-secondary-container" data-icon="storefront">storefront</span>
+<span class="font-bold text-white tracking-wide">평내본점</span>
+</div>
+<span class="text-white/20">|</span>
+<span class="text-stone-300 font-normal">남양주시 평내로 124</span>
+<span class="text-white/20">|</span>
+<span class="text-stone-300">매장영업 <strong class="text-white font-medium">08:30 ~ 23:00</strong></span>
+<span class="text-white/20">|</span>
+<span class="inline-flex items-center gap-1 bg-[#046F46]/60 px-2 py-0.5 rounded text-[11px] text-emerald-200">
+<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+          오늘배송 마감 <span class="text-white font-semibold">21:00</span>
+</span>
+<button class="ml-1 text-[11px] text-stone-400 hover:text-white underline decoration-stone-500 underline-offset-2 transition-colors">
+          매장 변경
+        </button>
+</div>
+<!-- Right: Utility Links & Club Status -->
+<div class="flex items-center gap-5">
+<a class="flex items-center gap-1 text-stone-300 hover:text-white transition-colors" href="#circular">
+<span class="material-symbols-outlined text-[15px]" data-icon="newspaper">newspaper</span>
+<span>금주의 할인 전단 (Weekly Circular)</span>
+</a>
+<a class="flex items-center gap-1 text-secondary-container hover:text-amber-300 transition-colors" href="#membership">
+<span class="material-symbols-outlined text-[15px] material-symbols-fill" data-icon="stars">stars</span>
+<span class="font-bold">클럽 멤버십 혜택</span>
+</a>
+<span class="text-white/20">|</span>
+<span class="text-stone-300">고객센터 <span class="font-medium text-white">1588-0000</span></span>
+<span class="text-white/20">|</span>
+<div class="flex items-center gap-2">
+<a class="text-stone-300 hover:text-white font-medium" href="#login">로그인</a>
+<span class="text-white/30 text-[10px]">/</span>
+<a class="text-stone-300 hover:text-white font-medium" href="#signup">회원가입</a>
+</div>
+</div>
+</div>
+</header>
+<!-- ========================================== -->
+<!-- SECTION 2: Main Brand & Universal Search   -->
+<!-- ========================================== -->
+<section class="bg-surface-container-lowest border-b border-subtle-stone shadow-sm">
+<div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-between gap-8">
+<!-- Brand Identity / Logo -->
+<a class="flex items-center gap-3 group shrink-0" href="/">
+<div class="w-12 h-12 rounded-xl bg-primary flex items-center justify-center text-white shadow-sm transition-transform group-hover:scale-105 duration-200">
+<span class="material-symbols-outlined text-[30px]" data-icon="spa">spa</span>
+</div>
+<div>
+<div class="flex items-baseline gap-1.5">
+<span class="text-title-lg font-headline-md font-bold tracking-tight text-primary">E-PLUS MART</span>
+<span class="text-[10px] font-bold text-secondary-container uppercase tracking-wider">PREMIUM</span>
+</div>
+<p class="text-[11px] font-title-md font-semibold text-outline tracking-wider flex items-center gap-1">
+<span>FRESH &amp; ORGANIC</span>
+<span class="w-1 h-1 rounded-full bg-outline"></span>
+<span>SINCE 1998</span>
+</p>
+</div>
+</a>
+<!-- Delivery Mode Switcher Pill -->
+<div class="shrink-0 bg-parchment-warm p-1 rounded-full flex items-center border border-subtle-stone">
+<button class="flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-primary text-white font-label-md text-label-md shadow-sm transition-all">
+<span class="material-symbols-outlined text-[16px]" data-icon="electric_moped">electric_moped</span>
+<span>배달로 받기</span>
+<span class="text-[11px] text-emerald-200 font-normal">(1시간 내)</span>
+</button>
+<button class="flex items-center gap-1.5 px-4 py-1.5 rounded-full text-on-surface-variant hover:text-primary font-label-md text-label-md transition-colors">
+<span class="material-symbols-outlined text-[16px]" data-icon="store">store</span>
+<span>매장 방문 픽업</span>
+<span class="text-[10px] text-secondary bg-secondary-fixed px-1.5 py-0.2 rounded font-medium">주차 2시간 무료</span>
+</button>
+</div>
+<!-- Universal Organic Search Bar -->
+<div class="flex-1 max-w-2xl relative">
+<div class="flex items-center bg-parchment-warm rounded-full border border-subtle-stone focus-within:border-primary focus-within:bg-white focus-within:ring-2 focus-within:ring-primary/10 transition-all">
+<!-- Dropdown Filter inside Search -->
+<div class="pl-4 pr-2 py-2.5 border-r border-outline-variant/30 flex items-center gap-1 text-on-surface font-title-md text-body-sm cursor-pointer hover:text-primary">
+<span>전체 카테고리</span>
+<span class="material-symbols-outlined text-[18px] text-outline" data-icon="keyboard_arrow_down">keyboard_arrow_down</span>
+</div>
+<!-- Input -->
+<input class="flex-1 bg-transparent px-4 py-2.5 text-on-surface font-body-md text-body-md border-0 focus:ring-0 placeholder:text-outline-variant outline-none" placeholder="친환경 유기농 산지직송, 무항생제 1++ 한우, 당일 어획 제주 은갈치 검색..." type="text"/>
+<!-- Search Button -->
+<button class="m-1.5 w-9 h-9 rounded-full bg-primary text-white flex items-center justify-center hover:bg-primary-container transition-all">
+<span class="material-symbols-outlined text-[20px]" data-icon="search">search</span>
+</button>
+</div>
+</div>
+<!-- Quick Actions (Reorder, Wishlist, Cart) -->
+<div class="flex items-center gap-6 shrink-0">
+<!-- Quick Reorder -->
+<a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-primary transition-colors group" href="#reorder">
+<span class="material-symbols-outlined text-[22px] group-hover:scale-110 transition-transform" data-icon="history">history</span>
+<span class="font-label-md text-[11px]">자주구매</span>
+</a>
+<!-- Wishlist -->
+<a class="flex flex-col items-center gap-0.5 text-on-surface-variant hover:text-primary transition-colors relative group" href="#wishlist">
+<span class="material-symbols-outlined text-[22px] group-hover:scale-110 transition-transform" data-icon="favorite">favorite</span>
+<span class="font-label-md text-[11px]">찜한상품</span>
+<span class="absolute -top-1 -right-1.5 w-4 h-4 rounded-full bg-primary text-white text-[10px] font-bold flex items-center justify-center">12</span>
+</a>
+<!-- Cart Button (담기) -->
+<a class="flex items-center gap-2.5 bg-primary hover:bg-[#00472a] text-white px-4 py-2 rounded-xl shadow-sm transition-all duration-150" href="#cart">
+<div class="relative">
+<span class="material-symbols-outlined text-[24px]" data-icon="shopping_bag">shopping_bag</span>
+<span class="absolute -top-1 -right-1 bg-secondary-container text-white text-[10px] font-extrabold w-4 h-4 rounded-full flex items-center justify-center">3</span>
+</div>
+<div class="flex flex-col items-start leading-none">
+<span class="font-label-xs text-emerald-200">장바구니</span>
+<span class="font-title-md text-sm font-bold text-white">₩48,900</span>
+</div>
+</a>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 3: Department Mega Navigation Bar  -->
+<!-- ========================================== -->
+<nav class="sticky top-0 z-40 bg-surface-container-lowest/95 backdrop-blur-md border-b border-subtle-stone shadow-sm">
+<div class="max-w-[1440px] mx-auto px-6 flex items-center justify-between">
+<!-- Department Links -->
+<div class="flex items-center gap-1">
+<!-- All Menu trigger button -->
+<button class="flex items-center gap-2 px-4 py-3.5 text-on-surface hover:text-primary font-title-md text-title-md border-r border-subtle-stone mr-2">
+<span class="material-symbols-outlined text-[20px]" data-icon="menu">menu</span>
+<span>전체 카테고리</span>
+</button>
+<!-- Main Categories -->
+<a class="text-primary border-b-2 border-primary font-title-md text-title-md px-3.5 py-3.5 flex items-center gap-1.5" href="#produce">
+<span>🌱</span>
+<span>Organic Produce</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary font-body-md text-body-md px-3.5 py-3.5 flex items-center gap-1.5 transition-colors" href="#meat">
+<span>🥩</span>
+<span>Pasture-Raised Meat</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary font-body-md text-body-md px-3.5 py-3.5 flex items-center gap-1.5 transition-colors" href="#seafood">
+<span>🐟</span>
+<span>Wild Seafood</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary font-body-md text-body-md px-3.5 py-3.5 flex items-center gap-1.5 transition-colors" href="#bakery">
+<span>🥖</span>
+<span>Bakery &amp; Deli</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary font-body-md text-body-md px-3.5 py-3.5 flex items-center gap-1.5 transition-colors" href="#pantry">
+<span>🍯</span>
+<span>Local Pantry</span>
+</a>
+<a class="text-secondary hover:text-amber-800 font-title-md text-body-md px-3.5 py-3.5 flex items-center gap-1.5 transition-colors" href="#deals">
+<span>🔥</span>
+<span>Weekly Deals</span>
+</a>
+<a class="text-on-surface-variant hover:text-primary font-body-md text-body-md px-3.5 py-3.5 flex items-center gap-1.5 transition-colors" href="#standards">
+<span>🛡️</span>
+<span>Our Standards</span>
+</a>
+</div>
+<!-- Right Accent Badge -->
+<div class="flex items-center gap-2 bg-emerald-50 text-primary border border-emerald-200/80 px-3 py-1 rounded-full text-xs font-title-md">
+<span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+<span>오늘 새벽수확 딸기 입고 🍓</span>
+</div>
+</div>
+</nav>
+<!-- ========================================== -->
+<!-- SECTION 4: Editorial Hero Banner           -->
+<!-- ========================================== -->
+<section class="relative bg-parchment overflow-hidden border-b border-subtle-stone">
+<div class="max-w-[1440px] mx-auto px-6 py-12 lg:py-16">
+<div class="grid grid-cols-12 gap-8 items-center">
+<!-- Left Story & Editorial Copy -->
+<div class="col-span-12 lg:col-span-7 flex flex-col items-start gap-6 z-10">
+<!-- Farm Origin Pill -->
+<div class="inline-flex items-center gap-2 bg-[#046F46]/10 text-primary border border-[#046F46]/20 px-3.5 py-1.5 rounded-full">
+<span class="material-symbols-outlined text-[16px] text-primary" data-icon="verified">verified</span>
+<span class="font-title-md text-xs uppercase tracking-wider">대한민국 1% 무농약 유기농 직송</span>
+</div>
+<!-- Main Serif Headline -->
+<h1 class="font-headline-lg text-headline-lg lg:text-[44px] lg:leading-[54px] text-on-surface tracking-tight">
+            산지의 신선함을 그대로,<br/>
+<span class="text-primary italic">우리 가족을 위한</span> 가장 정직한 식탁
+          </h1>
+<!-- Body Description -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl leading-relaxed">
+            매일 아침 청정 산지에서 정성껏 수확한 친환경 유기농 식재료와 100% 동물복지 무항생제 축산물. 
+            타협하지 않는 300여 가지 무첨가 원칙으로 오늘의 식탁을 가장 건강하게 채웁니다.
+          </p>
+<!-- Dual CTAs -->
+<div class="flex items-center gap-4 pt-2 w-full sm:w-auto">
+<a class="bg-primary hover:bg-primary-container text-white px-7 py-4 rounded-xl font-label-lg text-label-lg shadow-sm hover:shadow-md transition-all flex items-center gap-2" href="#deals">
+<span>금주의 전단 특가 보기</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="arrow_forward">arrow_forward</span>
+</a>
+<a class="bg-white hover:bg-stone-50 text-primary border border-primary/30 px-6 py-4 rounded-xl font-label-lg text-label-lg transition-all flex items-center gap-2" href="#produce">
+<span>오늘의 신선 직송 장보기</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="local_mall">local_mall</span>
+</a>
+</div>
+<!-- Floating Prime-Style Promotion Banner Badge -->
+<div class="mt-4 p-4 rounded-xl bg-gradient-to-r from-amber-500/10 via-amber-400/5 to-transparent border-l-4 border-secondary-container flex items-center gap-3 w-full max-w-xl">
+<span class="material-symbols-outlined text-secondary text-[26px] material-symbols-fill shrink-0" data-icon="stars">stars</span>
+<div>
+<div class="font-title-md text-sm font-bold text-secondary">
+                E-플러스 클럽 멤버십 전용 혜택
+              </div>
+<div class="text-xs text-on-surface-variant">
+                회원 가입 즉시 전품목 10% 추가할인 + 첫 주문 100% 무료배송 3회 쿠폰팩 증정
+              </div>
+</div>
+<a class="ml-auto shrink-0 bg-secondary hover:bg-amber-800 text-white text-xs font-bold px-3 py-1.5 rounded-lg transition-colors" href="#join">
+              혜택 받기
+            </a>
+</div>
+</div>
+<!-- Right Hero Imagery -->
+<div class="col-span-12 lg:col-span-5 relative">
+<div class="relative mx-auto rounded-3xl overflow-hidden shadow-xl border-4 border-white bg-parchment-warm">
+<img class="w-full h-[460px] object-cover" data-alt="A lush, artisanal culinary still life showcasing dewy organic heirloom tomatoes, crisp kale, pasture-raised eggs in a ceramic bowl, and rustic artisan sourdough bread on unbleached linen fabric in warm morning golden light. The atmosphere is vibrant, fresh, and grounded in earth-toned greens, warm cream, and rich amber tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCo6E9SG-k1RflmEeof-5yFCxAkZrf9_0g66nfclUGl8epOgOh4NFMMnJiWDg9DhD0N3gObHKy8615Kwla0Z9R9GLE1z-ASLY2sLC5mfFinoCQ8sjzhXRNFlczn7nckUEjlyJ1pQDUthDeXV6YoUTkuLS6nuz-IztP89InNPulXctacSfigfH7s3r65Dn0Z6UFMp5U4XPy2r96LDu3GvUmYmhnEhX7XY_7w81auL8yXlsFlq4BZgLCSTirP2LUntb98oGAYNwhWMmw"/>
+<!-- Farm Origin Tag Overlay -->
+<div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3.5 py-2 rounded-xl shadow-sm border border-subtle-stone flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-[20px]" data-icon="eco">eco</span>
+<div>
+<p class="text-[10px] text-outline font-title-md uppercase">Farm Certified</p>
+<p class="text-xs font-bold text-on-surface">강원도 평창 유기농 팜 직송</p>
+</div>
+</div>
+<!-- Fresh Harvest Time Stamp Tag -->
+<div class="absolute bottom-4 right-4 bg-[#1A2E22]/90 backdrop-blur-md px-4 py-2 rounded-xl text-white shadow-md flex items-center gap-2.5">
+<span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-ping"></span>
+<div class="text-right">
+<p class="text-[10px] text-stone-300">오늘 새벽 수확 완료</p>
+<p class="text-xs font-bold text-white">오전 05:40 입고</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 5: Whole Foods Value Pillars Strip -->
+<!-- ========================================== -->
+<section class="bg-white py-12 border-b border-subtle-stone">
+<div class="max-w-[1440px] mx-auto px-6">
+<div class="text-center max-w-2xl mx-auto mb-10">
+<span class="text-xs font-bold uppercase tracking-wider text-primary">Our Uncompromising Promises</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">E-플러스 마트가 지켜온 4가지 식품 철학</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Pillar 1 -->
+<div class="bg-parchment rounded-2xl p-6 border border-subtle-stone hover:border-primary/30 transition-all group">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]" data-icon="block">block</span>
+</div>
+<h3 class="font-title-lg text-title-md font-bold text-on-surface mb-2">
+            300+ 유해성분 무첨가
+          </h3>
+<p class="font-body-md text-body-sm text-on-surface-variant leading-relaxed">
+            인공 감미료, 합성 보존료, 고과당 콘시럽, 타르색소를 전면 퇴출하여 온 가족이 안심하고 섭취합니다.
+          </p>
+<span class="inline-block mt-4 text-[11px] font-bold text-primary">Zero Artificial List →</span>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-parchment rounded-2xl p-6 border border-subtle-stone hover:border-primary/30 transition-all group">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]" data-icon="cruelty_free">cruelty_free</span>
+</div>
+<h3 class="font-title-lg text-title-md font-bold text-on-surface mb-2">
+            100% 동물복지 &amp; 무항생제
+          </h3>
+<p class="font-body-md text-body-sm text-on-surface-variant leading-relaxed">
+            자연 방목 환경에서 자란 건강한 가축. 인공 성장 촉진제 및 예방적 항생제 투여 0%를 보증합니다.
+          </p>
+<span class="inline-block mt-4 text-[11px] font-bold text-primary">Certified Animal Welfare →</span>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-parchment rounded-2xl p-6 border border-subtle-stone hover:border-primary/30 transition-all group">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]" data-icon="distance">distance</span>
+</div>
+<h3 class="font-title-lg text-title-md font-bold text-on-surface mb-2">
+            반경 50km 로컬 푸드
+          </h3>
+<p class="font-body-md text-body-sm text-on-surface-variant leading-relaxed">
+            평내·남양주 및 인근 청정 농가와 직거래. 갓 수확한 싱싱한 식재료를 12시간 내 매장에 진열합니다.
+          </p>
+<span class="inline-block mt-4 text-[11px] font-bold text-primary">Local Farm Partners →</span>
+</div>
+<!-- Pillar 4 -->
+<div class="bg-parchment rounded-2xl p-6 border border-subtle-stone hover:border-primary/30 transition-all group">
+<div class="w-12 h-12 rounded-xl bg-primary/10 text-primary flex items-center justify-center mb-5 group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-[26px]" data-icon="published_with_changes">published_with_changes</span>
+</div>
+<h3 class="font-title-lg text-title-md font-bold text-on-surface mb-2">
+            신선 불만족 100% 환불
+          </h3>
+<p class="font-body-md text-body-sm text-on-surface-variant leading-relaxed">
+            신선도와 맛에 만족하지 못하셨다면 이유 불문 100% 무료 교환 및 즉시 환불을 약속드립니다.
+          </p>
+<span class="inline-block mt-4 text-[11px] font-bold text-primary">Love It or Return It →</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 6: Visual Department Explorer      -->
+<!-- ========================================== -->
+<section class="py-16 bg-parchment border-b border-subtle-stone">
+<div class="max-w-[1440px] mx-auto px-6">
+<!-- Section Header -->
+<div class="flex items-end justify-between mb-10">
+<div>
+<span class="text-xs font-bold uppercase tracking-wider text-primary">Explore Our Aisles</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">전문 바이어가 엄선한 신선 카테고리</h2>
+</div>
+<a class="text-primary hover:text-primary-container font-title-md text-sm flex items-center gap-1 group" href="#all-departments">
+<span>전체 부문 둘러보기</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform" data-icon="chevron_right">chevron_right</span>
+</a>
+</div>
+<!-- Categories Grid -->
+<div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-7 gap-5">
+<!-- Cat 1 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#produce">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="A vibrant arrangement of fresh organic produce including green leafy kale, ripe red heirloom tomatoes, and crisp carrots on a bright stone kitchen surface. Clean, light, natural aesthetic matching deep green and harvest tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCP9sxWUPtShdaS2cyiH0kKJIejxqXsI5g0166dYXfxKd6g4_CDl4j3ydOu75_Q45sFPjPxgutMQ6oUxEc7HEDq-oUWxUXaENAnd725d1For5FIUdMnAiIhtvBpESTIMPnbDuyQhMojUqfw8FAMVwAO-JWAX5fr39xTsoBC8Yoq5dnOwqrBVIP1H5U8Z6K5Lnl84A48kY0NpEUuAcR7t2C40DHB2iRuSsdNStDrD5S4P5Rkorr4FCP4OiM8OYaYrvLEEfjeu1noUpA"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">유기농 과일&amp;채소</span>
+<span class="text-[11px] text-outline mt-0.5">Organic Produce</span>
+</a>
+<!-- Cat 2 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#meats">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Premium cut of fresh pasture-raised Korean beef sirloin steak with natural marbling resting on craft parchment butcher paper with fresh rosemary sprigs. Warm editorial gourmet lighting, rich earth tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFv7Ue6GDwfC6AntPK17cldoCJJi83VzOMdx0_TfaIHKZgaQJKNJXl99N_F6Ze2g1QOpNnqPDweYalpJtsfL-bwewEobZ1mh2FVP51Tp7LkbV5-b8jD5cwmZOhMoE19vWzMOXxXpDkkqxaSRe1u3jKoTEZugos9CyPcVfzOrdXLf9So-0w3fuSwWA_oBBLqVTEJw-pCUZeMHisolo1LtvQJfdw_Hloyz-hBhkO_hQLQfN-vjm3rQgtkMu4cFgD2zph4Qus0hkslNk"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">무항생제 축산</span>
+<span class="text-[11px] text-outline mt-0.5">Grass-fed Meats</span>
+</a>
+<!-- Cat 3 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#seafood">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Wild-caught fresh silver hairtail fish gleaming on crushed ice accompanied by fresh lemon slices and sea salt. Crisp high-key gourmet food market lighting, clean and premium." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0r3KYuC1MjhpplRHSW6R6T775f8L80qrpW7Ml-w7WBlMa4FZ9kA5k3CExZ25DJSwnyFwRLvVDCXG8T9BRRr2vSurSn-3NEWf-0Ixlwq9iVJ8YNd2cTvDFtdikXZNCZMraRCujFyROwYVWkMGEK6Ap2KrND04qVmOjHGrlFbsIZW9rXBrVG-SkUPsIUsl5V-D79CEP-VHXHN6eio7QT7BDZFjOn8BVXJ-5OsVpVQXSureG6QSCmOl1geZ1r4B7X2xw_5LBlQl9IBo"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">산지직송 수산</span>
+<span class="text-[11px] text-outline mt-0.5">Wild Seafood</span>
+</a>
+<!-- Cat 4 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#bakery">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Artisanal sourdough loaves and rustic French baguettes dusted with organic flour resting in a woven natural wicker basket in morning bakery light. Wholesome golden crusts, clean editorial style." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAU0M-3XRoDjh4HrDdkOv2boYWTmBAKgukwofUBVHcureHRFanKhWh7yDH5KlUiaUcH8ojDhtn0poxuMgVJaOA45KmGuLzPhIXDpW4cU4F30RvOkBAc-x_rqrGwKH6YIb78wFPu_2YWGW1DkXSFeCbWOQm-193SyE0K6xEU9aC_dIowq8V21w2CK2iIbT61JGGDXwrub48yOLoCjMYdJToDLUiQ2xI1Vfta5HUlqGwU3DfcaPpNA0sd0OxJ_ESGWtnoixEi0QdP0Gg"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">아티잔 베이커리</span>
+<span class="text-[11px] text-outline mt-0.5">Artisan Bakery</span>
+</a>
+<!-- Cat 5 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#deli">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="A gourmet chef-crafted salad bowl with roasted organic sweet potatoes, quinoa, fresh avocado slices, and microgreens arranged beautifully in an olive ceramic bowl. Bright, modern natural food lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOubK7urztR4xG3j1GRyHVDBSUf-4RIDNbJnwg8t2aSJZpwohoeBgrlXGvlNRxQ-eQ_E2aNf1S2veOXgcXl4gwlZvggGvELT5WcEmFbPJ6vxgNgjalwKIpv3W6xH0venx046ZDel4r4jBoRse2UlFKitAJ93KHqy9ObC6RnpuSbSBFzfSPoAEH8Pe88g6Nc-3vKZamPfB1ihdw-GMDUwylnTLyebBwMDzKOTEyGl2krz3sKs7pASsxZedAoxu9_qvxhNldHon5vvE"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">셰프 프리페어드 델리</span>
+<span class="text-[11px] text-outline mt-0.5">Prepared Deli</span>
+</a>
+<!-- Cat 6 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#dairy">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Bottles of organic pasture milk and oat plant milk in glass bottles alongside artisanal aged cheeses on a rustic marble table. Gentle natural cream lighting, serene lifestyle tone." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCWPuLvHSq1uxEa-UG-Z5y4RcMCpv9fHp9s471C64CiwpnnZidbeKjoV0uGJH_J3QVUrmfNhEZ-liv_3gUnZSpRbrK0nsD-xPwGbR-CquHejbIHQ4r7N3Tr2sT7H338mWKZ3GYV4F0xZQIFWq3H8NXabE1apUXQOSkORyw4eB6-F1DbskeGVK-CitdVQqLleVOwv-9TRFrC8jUvDfcn56VfDHSKv3HPViwK227kFKitjrsHhgeKvvxPFYQLdTT3m3uQg600WhFV3Zk"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">유기농 유제품</span>
+<span class="text-[11px] text-outline mt-0.5">Dairy &amp; Plant Milk</span>
+</a>
+<!-- Cat 7 -->
+<a class="flex flex-col items-center text-center p-4 bg-white rounded-2xl border border-subtle-stone hover:border-primary/50 hover:shadow-md transition-all group" href="#wine">
+<div class="w-24 h-24 rounded-full overflow-hidden mb-3 bg-parchment-warm">
+<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300" data-alt="Two elegant natural biodynamic wine bottles with artisanal paper labels displayed next to a bunch of organic green grapes on a wooden cutting board. Rich earthy cellar tone with warm ambient lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSeWvNU8M-RTTmWmW2C4rRMb78JO5xGpjtjy6sb--5Q6aI1u2DaqtXUZYXuxBc6jJACH7YeEbURrUc1UPkaTuKhhv-Vlsx1qgyNR1lHhbHsJD4_p3I8nkoS1XOYs6ncxJNdxAHmNv5KuNctdNqkgUEEqg7dxi7EP1xyXlHunP_1RJdXBIvBJAFNYI6V_TSaVbJR9zMBsNnsGp1bG49cAOUePlsttT8HzS3JsItSnrPFLQZ99BsNxlTkpzRQ4q3RuQxPGU_h4jhTd0"/>
+</div>
+<span class="font-title-md text-sm text-on-surface group-hover:text-primary font-bold">내추럴 와인&amp;맥주</span>
+<span class="text-[11px] text-outline mt-0.5">Natural Wine &amp; Craft</span>
+</a>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 7: Weekly Specials & Member Deals  -->
+<!-- ========================================== -->
+<section class="py-16 bg-white border-b border-subtle-stone" id="deals">
+<div class="max-w-[1440px] mx-auto px-6">
+<!-- Section Top Header with Prime-style banner -->
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+<div>
+<div class="flex items-center gap-2 mb-1">
+<span class="material-symbols-outlined text-secondary-container material-symbols-fill" data-icon="stars">stars</span>
+<span class="text-xs font-bold uppercase tracking-wider text-secondary">Weekly Prime-Style Specials</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">금주의 전단 특가 &amp; 클럽 회원 단독 혜택</h2>
+<p class="font-body-md text-on-surface-variant text-sm mt-1">이번 주 목요일부터 다음 주 수요일까지 평내본점 한정 수량 제공</p>
+</div>
+<!-- Filter tabs -->
+<div class="flex items-center gap-2 bg-parchment-warm p-1 rounded-xl border border-subtle-stone self-start md:self-auto">
+<button class="px-4 py-1.5 rounded-lg bg-primary text-white font-title-md text-xs">전체 특가</button>
+<button class="px-4 py-1.5 rounded-lg text-on-surface-variant hover:text-primary font-title-md text-xs">신선 과일·채소</button>
+<button class="px-4 py-1.5 rounded-lg text-on-surface-variant hover:text-primary font-title-md text-xs">정육·수산</button>
+<button class="px-4 py-1.5 rounded-lg text-on-surface-variant hover:text-primary font-title-md text-xs">베이커리·델리</button>
+</div>
+</div>
+<!-- 4-Card Showcase Grid -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Product Card 1: Strawberries -->
+<div class="bg-white rounded-2xl border border-subtle-stone hover:border-primary/40 hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden group">
+<!-- Image Box -->
+<div class="relative w-full aspect-square bg-parchment-warm overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Fresh, ripe bright red Korean Seolhyang strawberries in a natural craft punnet, showing fresh green stems and morning dewdrops. Clean food photography style on cream surface." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA-SIz1anJnFhbwNcr7tgsLO1nSyJyBJ_dzMlVpSD0DlgmHtSb49gol4OqmUybuhfsgiBrhwU1wljXMFeUCwfTINQvvtSb5EbuSc2qeggXCzOYZEa-BORq2QnA5X4KcaGvn5RO7aaPu89wxWurFeWehG8ca3FMTPUANBs6PnojZjuN_VrtUUgOiyWDlQoJ6Vb7L2Tw_fXZRJdD-MXOgGp_G-OBBVlTpAPIwyX4BCf1ai56YJP9bsZ_zqNVLo2W8gZVeSqXIGllzETk"/>
+<!-- Badges -->
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-secondary-container text-white font-bold text-[10px] px-2 py-0.5 rounded shadow-sm">클럽회원 20% OFF</span>
+<span class="bg-[#046F46] text-white font-semibold text-[10px] px-2 py-0.5 rounded">유기농 인증</span>
+</div>
+<!-- Quick Add Floating Circle -->
+<button class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-primary hover:bg-[#003d25] text-white shadow-md flex items-center justify-center transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[20px]" data-icon="add">add</span>
+</button>
+</div>
+<!-- Details -->
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<p class="font-title-md text-xs text-outline mb-1">지리산 산청 작목반 직송</p>
+<h3 class="font-title-md text-base font-bold text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                친환경 무농약 지리산 설향 딸기 (750g)
+              </h3>
+<p class="text-xs text-emerald-700 font-medium mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="schedule">schedule</span>
+                오늘 새벽 당일 수확 출고
+              </p>
+</div>
+<div class="pt-4 border-t border-subtle-stone mt-4">
+<div class="flex items-baseline gap-2">
+<span class="text-xs text-outline line-through">₩14,900</span>
+<span class="text-xs font-bold text-secondary">20%</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-title-lg font-bold text-primary">₩11,920</span>
+<span class="text-[11px] text-outline font-normal">(100g당 ₩1,589)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 2: 1++ Hanwoo Sirloin -->
+<div class="bg-white rounded-2xl border border-subtle-stone hover:border-primary/40 hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden group">
+<!-- Image Box -->
+<div class="relative w-full aspect-square bg-parchment-warm overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Thick-cut 1++ grade Korean Hanwoo beef sirloin steak with exquisite marbling, placed on dark butcher paper with sprigs of fresh organic rosemary and rock salt. Warm rich culinary lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuArDQw6cgGu3vg9v7RZHJ15-v9M1BC8l0_fVf1lGORar37dMPrlN2-RywmmxqwffE6xTFNeM539ekKUw0QrRoCl93EPCf4p0fPKOOVXBRhwvy1ob4NbgWepXCDd2B7fx5ZKp6oQSoLgbZrZnLgh9toH9u_TcOXfhvWhmsIhgVGhmRZI2jKXr7jN2ak9cZWRhdQggQj74cr-i5pP7aCwOxIH4mqxZEsD1-5tukeaH0JtqIpSwe7ueSjES7UPewkHRrZpUvo0EQGVcbE"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-secondary-container text-white font-bold text-[10px] px-2 py-0.5 rounded shadow-sm">클럽회원 20% OFF</span>
+<span class="bg-[#046F46] text-white font-semibold text-[10px] px-2 py-0.5 rounded">동물복지 1등급</span>
+</div>
+<button class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-primary hover:bg-[#003d25] text-white shadow-md flex items-center justify-center transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[20px]" data-icon="add">add</span>
+</button>
+</div>
+<!-- Details -->
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<p class="font-title-md text-xs text-outline mb-1">강원 횡성 자연방목 지정목장</p>
+<h3 class="font-title-md text-base font-bold text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                1++ 등급 무항생제 한우 채끝스테이크 (300g)
+              </h3>
+<p class="text-xs text-emerald-700 font-medium mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="verified_user">verified_user</span>
+                항생제·성장호르몬 무투여 검증
+              </p>
+</div>
+<div class="pt-4 border-t border-subtle-stone mt-4">
+<div class="flex items-baseline gap-2">
+<span class="text-xs text-outline line-through">₩39,800</span>
+<span class="text-xs font-bold text-secondary">20%</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-title-lg font-bold text-primary">₩31,840</span>
+<span class="text-[11px] text-outline font-normal">(100g당 ₩10,613)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 3: Jeju Silver Hairtail -->
+<div class="bg-white rounded-2xl border border-subtle-stone hover:border-primary/40 hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden group">
+<!-- Image Box -->
+<div class="relative w-full aspect-square bg-parchment-warm overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Freshly caught, whole glistening silver hairtail fish from Jeju island laid horizontally on clean ice bed with lemon wedges. High-key natural lighting emphasizing the silver texture and fresh quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqQge0Jo9IgTUHKdAE6luoSq4CM3ii59JlNi0tcaexO4CE3EXwVnWgibjeSdNB_cRaoK7dhWllMeSbzXNk14uxWa1DBg2juDkdgTkCJRpDXTqb52al-EqysH4Wvq5AdNEzcXDs6P68GON6TdVoHE8Gl3XeIChn0MyYrgXRq7qlPvOnCQPIDziS5_rK5nU4xo628SxWVqGPq-8KnGxz0YlabelbeGywgzKGqnlgXvs1dOP6zoMtnh_Iafx4G2AdqIVhycTPvt9NFaM"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-secondary-container text-white font-bold text-[10px] px-2 py-0.5 rounded shadow-sm">클럽회원 20% OFF</span>
+<span class="bg-[#046F46] text-white font-semibold text-[10px] px-2 py-0.5 rounded">당일 항공직송</span>
+</div>
+<button class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-primary hover:bg-[#003d25] text-white shadow-md flex items-center justify-center transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[20px]" data-icon="add">add</span>
+</button>
+</div>
+<!-- Details -->
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<p class="font-title-md text-xs text-outline mb-1">제주 서귀포 수협 당일 경매</p>
+<h3 class="font-title-md text-base font-bold text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                당일 경매 제주 자연산 은갈치 (특대 1미)
+              </h3>
+<p class="text-xs text-emerald-700 font-medium mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="health_and_safety">health_and_safety</span>
+                방사능 안심 전수 검사 완료
+              </p>
+</div>
+<div class="pt-4 border-t border-subtle-stone mt-4">
+<div class="flex items-baseline gap-2">
+<span class="text-xs text-outline line-through">₩22,000</span>
+<span class="text-xs font-bold text-secondary">20%</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-title-lg font-bold text-primary">₩17,600</span>
+<span class="text-[11px] text-outline font-normal">(1미당 ₩17,600)</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Card 4: Sourdough Baguette -->
+<div class="bg-white rounded-2xl border border-subtle-stone hover:border-primary/40 hover:shadow-lg transition-all duration-200 flex flex-col overflow-hidden group">
+<!-- Image Box -->
+<div class="relative w-full aspect-square bg-parchment-warm overflow-hidden">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Artisanal French levain sourdough baguette scored with precision and baked to a deep golden-brown crust, resting diagonally on a baker's linen cloth with fine flour dust. Warm inviting bakery aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlfmAyIASuvrBnpzby4qSLlUS0IaR--K49FspgnPTKXMPwjXajukjWVPAwk_mGbT0whvfQgo2viQQi-9XGE4-R61rt93RSKdf230TiwR25tlJDS8j4swCklMdMni-pJgXL6r3JdaGZqmoKhBoblzZwHwarRCiUMEOIHE_uCDWBU4MTNyKx3xPupQQOaLQn8n0sH9iNl5x_JQ_bN4DS-38bwW1fhYtTlZJY1lgdvv5YunNeiHqt2B5Gi1Yteo0ja4ir3Urx-TA1uGM"/>
+<div class="absolute top-3 left-3 flex flex-col gap-1.5">
+<span class="bg-secondary-container text-white font-bold text-[10px] px-2 py-0.5 rounded shadow-sm">클럽회원 20% OFF</span>
+<span class="bg-[#046F46] text-white font-semibold text-[10px] px-2 py-0.5 rounded">유기농 T65 밀가루</span>
+</div>
+<button class="absolute bottom-3 right-3 w-10 h-10 rounded-full bg-primary hover:bg-[#003d25] text-white shadow-md flex items-center justify-center transition-transform active:scale-95">
+<span class="material-symbols-outlined text-[20px]" data-icon="add">add</span>
+</button>
+</div>
+<!-- Details -->
+<div class="p-5 flex-1 flex flex-col justify-between">
+<div>
+<p class="font-title-md text-xs text-outline mb-1">E-Plus 베이커리 아틀리에 매일 구움</p>
+<h3 class="font-title-md text-base font-bold text-on-surface group-hover:text-primary transition-colors line-clamp-2">
+                천연 효모종 르방 사워도우 바게트 (350g)
+              </h3>
+<p class="text-xs text-emerald-700 font-medium mt-1 flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" data-icon="bakery_dining">bakery_dining</span>
+                무버터 · 무설탕 · 24시간 저온발효
+              </p>
+</div>
+<div class="pt-4 border-t border-subtle-stone mt-4">
+<div class="flex items-baseline gap-2">
+<span class="text-xs text-outline line-through">₩6,500</span>
+<span class="text-xs font-bold text-secondary">20%</span>
+</div>
+<div class="flex items-baseline justify-between">
+<span class="text-title-lg font-bold text-primary">₩5,200</span>
+<span class="text-[11px] text-outline font-normal">(100g당 ₩1,485)</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 8: Our Standards 300+ Spotlight    -->
+<!-- ========================================== -->
+<section class="py-20 bg-[#1A2E22] text-[#EFECE6] relative overflow-hidden" id="standards">
+<div class="max-w-[1440px] mx-auto px-6 relative z-10">
+<div class="grid grid-cols-12 gap-10 items-center">
+<!-- Left Editorial Statement -->
+<div class="col-span-12 lg:col-span-6 flex flex-col gap-6">
+<div class="inline-flex items-center gap-2 bg-[#046F46]/60 border border-emerald-500/40 text-emerald-300 px-3 py-1 rounded-full text-xs font-title-md w-fit">
+<span class="material-symbols-outlined text-[16px]" data-icon="shield">shield</span>
+<span>E-Plus Mart Quality Standards 300+</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg lg:text-[40px] lg:leading-[50px] text-white">
+            “우리가 판매하지 않는 것들이<br/>
+<span class="text-emerald-300 italic">우리의 자부심입니다.”</span>
+</h2>
+<p class="font-body-lg text-body-lg text-stone-300 leading-relaxed">
+            Whole Foods Market의 엄격한 유기농 스탠다드를 한국 최초로 적용했습니다. 
+            E-Plus Mart의 진열대에 오르기 위해서는 300가지 이상의 유해 의심 화학성분 전면 배제 테스트를 통과해야 합니다.
+          </p>
+<!-- Banned Ingredients Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+<div class="flex items-start gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
+<span class="material-symbols-outlined text-red-400 text-[20px] shrink-0" data-icon="cancel">cancel</span>
+<div>
+<p class="text-xs font-bold text-white">수소화 유지 (트랜스지방 0%)</p>
+<p class="text-[11px] text-stone-400">마가린, 쇼트닝 등 인공 경화유 퇴출</p>
+</div>
+</div>
+<div class="flex items-start gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
+<span class="material-symbols-outlined text-red-400 text-[20px] shrink-0" data-icon="cancel">cancel</span>
+<div>
+<p class="text-xs font-bold text-white">아스파탐 &amp; 인공감미료</p>
+<p class="text-[11px] text-stone-400">사카린, 수크랄로스 무첨가 제품만</p>
+</div>
+</div>
+<div class="flex items-start gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
+<span class="material-symbols-outlined text-red-400 text-[20px] shrink-0" data-icon="cancel">cancel</span>
+<div>
+<p class="text-xs font-bold text-white">타르색소 &amp; 합성 착향료</p>
+<p class="text-[11px] text-stone-400">자연 유래 천연 추출물만 허용</p>
+</div>
+</div>
+<div class="flex items-start gap-3 bg-white/5 p-3 rounded-xl border border-white/10">
+<span class="material-symbols-outlined text-red-400 text-[20px] shrink-0" data-icon="cancel">cancel</span>
+<div>
+<p class="text-xs font-bold text-white">합성 보존제 (BHA / BHT)</p>
+<p class="text-[11px] text-stone-400">화학 산화방지제 전면 불허</p>
+</div>
+</div>
+</div>
+<!-- CTAs -->
+<div class="pt-4 flex items-center gap-4">
+<button class="bg-[#046F46] hover:bg-emerald-600 text-white px-6 py-3.5 rounded-xl font-label-lg text-label-lg flex items-center gap-2 shadow-lg transition-all">
+<span>품질기준 300+ 전수 검사 리포트 열람</span>
+<span class="material-symbols-outlined text-[18px]" data-icon="description">description</span>
+</button>
+<span class="text-xs text-stone-400">매월 공인시험기관 정기 리포트 공개</span>
+</div>
+</div>
+<!-- Right Side: Visual Seal Certificate Card -->
+<div class="col-span-12 lg:col-span-6 flex justify-center">
+<div class="w-full max-w-md bg-[#253d2f] border border-white/10 p-8 rounded-3xl shadow-2xl relative">
+<div class="flex items-center justify-between pb-6 border-b border-white/10">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-emerald-400 text-[36px]" data-icon="verified">verified</span>
+<div>
+<h4 class="font-headline-sm text-sm text-white font-bold">CERTIFIED ORGANIC PLEDGE</h4>
+<p class="text-[11px] text-emerald-300">대한민국 친환경 유기농 인증 표준</p>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full border-2 border-dashed border-emerald-400/50 flex items-center justify-center text-emerald-400 text-xs font-bold">
+                100%
+              </div>
+</div>
+<div class="py-6 space-y-4 text-xs text-stone-300 leading-relaxed font-body-md">
+<p>
+                "우리는 눈속임하지 않습니다. 모든 과일과 채소는 잔류농약 460종 정밀분석을 거치며, 모든 육류는 지정 도축장부터 매장 입고까지 무항생제 이력추적제로 전산 관리됩니다."
+              </p>
+<div class="bg-black/20 p-4 rounded-xl space-y-2">
+<div class="flex justify-between text-stone-200">
+<span>농약 잔류 검사 항목</span>
+<strong class="text-white">460종 불검출 (0.00%)</strong>
+</div>
+<div class="flex justify-between text-stone-200">
+<span>유전자 변형 작물 (Non-GMO)</span>
+<strong class="text-white">100% 배제</strong>
+</div>
+<div class="flex justify-between text-stone-200">
+<span>동물복지 자유방목 인증율</span>
+<strong class="text-emerald-300">100% 준수</strong>
+</div>
+</div>
+</div>
+<div class="pt-4 border-t border-white/10 flex items-center justify-between">
+<div class="text-[11px] text-stone-400">
+                인증기관: 국립농산물품질관리원 공인
+              </div>
+<span class="text-xs font-bold text-emerald-400 flex items-center gap-1">
+                검증 완료 ✓
+              </span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 9: Seasonal Dining & Chef Recipe   -->
+<!-- ========================================== -->
+<section class="py-16 bg-parchment border-b border-subtle-stone">
+<div class="max-w-[1440px] mx-auto px-6">
+<!-- Section Header -->
+<div class="max-w-2xl mb-10">
+<span class="text-xs font-bold uppercase tracking-wider text-primary">Chef Inspiration &amp; Dining</span>
+<h2 class="font-headline-md text-headline-md text-on-surface mt-1">E-Plus 마스터 셰프가 제안하는 주말 미식 식탁</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">
+          신선한 제철 유기농 채소와 무항생제 1++ 한우로 완성하는 건강하고 따뜻한 요리 레시피
+        </p>
+</div>
+<div class="bg-white rounded-3xl border border-subtle-stone overflow-hidden shadow-sm grid grid-cols-12">
+<!-- Recipe Photo Column -->
+<div class="col-span-12 lg:col-span-5 relative bg-parchment-warm min-h-[380px]">
+<img class="w-full h-full object-cover" data-alt="A rustic cast iron Dutch oven with an organic beef pot roast cooked with whole carrots, baby potatoes, onions, and fresh thyme, surrounded by a crisp green side salad. High culinary aesthetic, warm comforting dining setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDmH02kZamM1SZZ8jfQHflkcVnAf5sEDvlSnnabsLi801ukSUdVfskVs8i7infPnrUKIXx9q1Ls4xNKLy4hGNePhzSZ4rAqgwnN1AFKOJ9zr6Aos2-FXFug1lQWXiYjmXMPJHK4IT11HDD5bmyWdPDhdzmoLwoioWhSH8dl6OsJG-hPJb5Ekq4ohJPY-mTlwRSA9Tu2slebobnNzNTZoOKIkOSHkKCpi3cRQ3UiMgwJz87RppLBVXGWUc93yto9lnNWyKKT5rBeXhc"/>
+<div class="absolute top-4 left-4 bg-primary text-white text-xs font-bold px-3 py-1.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="restaurant">restaurant</span>
+<span>Chef's Choice Recipe</span>
+</div>
+</div>
+<!-- Recipe Content & Quick Bundle Column -->
+<div class="col-span-12 lg:col-span-7 p-8 lg:p-10 flex flex-col justify-between">
+<div>
+<!-- Recipe Meta -->
+<div class="flex items-center gap-4 text-xs text-outline mb-3 font-title-md">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="timer">timer</span>
+                소요시간: 35분
+              </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="equalizer">equalizer</span>
+                난이도: 보통
+              </span>
+<span>•</span>
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px]" data-icon="group">group</span>
+                분량: 3~4인분
+              </span>
+</div>
+<!-- Recipe Title -->
+<h3 class="font-headline-md text-headline-md text-on-surface mb-3">
+              제철 유기농 채소와 무항생제 한우 팟로스트(Pot Roast) &amp; 가든 샐러드
+            </h3>
+<!-- Chef Tip Quote -->
+<div class="p-4 rounded-xl bg-parchment border-l-4 border-primary text-xs text-on-surface-variant mb-6 leading-relaxed">
+<strong class="text-primary font-bold">E-Plus Master Chef Tip:</strong> "한우 채끝살은 센 불에서 겉면만 빠르게 시어링한 뒤, 저온에서 유기농 당근, 양파의 수분으로 뭉근하게 익히면 감칠맛이 고기 속까지 자연스럽게 배어듭니다."
+            </div>
+<!-- Ingredients Bundle Checklist -->
+<div>
+<p class="font-title-md text-xs font-bold text-on-surface mb-3 flex items-center justify-between">
+<span>필요한 핵심 식재료 (5종)</span>
+<span class="text-outline font-normal text-[11px]">개별 변경 가능</span>
+</p>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs text-on-surface">
+<label class="flex items-center gap-2 p-2 rounded-lg bg-parchment-warm border border-subtle-stone cursor-pointer">
+<input checked="" class="rounded text-primary focus:ring-primary border-outline-variant w-4 h-4" type="checkbox"/>
+<span class="truncate">무항생제 한우 채끝 (300g)</span>
+<span class="ml-auto font-bold text-primary">₩31,840</span>
+</label>
+<label class="flex items-center gap-2 p-2 rounded-lg bg-parchment-warm border border-subtle-stone cursor-pointer">
+<input checked="" class="rounded text-primary focus:ring-primary border-outline-variant w-4 h-4" type="checkbox"/>
+<span class="truncate">유기농 흙당근 &amp; 알감자 (1팩)</span>
+<span class="ml-auto font-bold text-primary">₩4,200</span>
+</label>
+<label class="flex items-center gap-2 p-2 rounded-lg bg-parchment-warm border border-subtle-stone cursor-pointer">
+<input checked="" class="rounded text-primary focus:ring-primary border-outline-variant w-4 h-4" type="checkbox"/>
+<span class="truncate">유기농 생타임 &amp; 로즈마리</span>
+<span class="ml-auto font-bold text-primary">₩2,100</span>
+</label>
+<label class="flex items-center gap-2 p-2 rounded-lg bg-parchment-warm border border-subtle-stone cursor-pointer">
+<input checked="" class="rounded text-primary focus:ring-primary border-outline-variant w-4 h-4" type="checkbox"/>
+<span class="truncate">스페인산 엑스트라 버진 올리브유</span>
+<span class="ml-auto font-bold text-primary">₩6,060</span>
+</label>
+</div>
+</div>
+</div>
+<!-- Bottom Bundle Action Button -->
+<div class="pt-6 border-t border-subtle-stone mt-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+<div>
+<p class="text-xs text-outline">레시피 재료 5종 번들 합계</p>
+<div class="flex items-baseline gap-2">
+<span class="text-xs text-outline line-through">₩48,000</span>
+<span class="text-title-lg font-bold text-primary">₩34,200</span>
+<span class="text-xs font-bold text-secondary">(클럽 세트할인)</span>
+</div>
+</div>
+<button class="w-full sm:w-auto bg-primary hover:bg-[#00472a] text-white px-6 py-3.5 rounded-xl font-label-lg text-label-lg flex items-center justify-center gap-2 shadow-sm transition-all active:scale-95">
+<span class="material-symbols-outlined text-[20px]" data-icon="shopping_cart">shopping_cart</span>
+<span>레시피 재료 한 번에 장바구니 담기</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 10: Local Store & Community Notice -->
+<!-- ========================================== -->
+<section class="py-16 bg-white border-b border-subtle-stone">
+<div class="max-w-[1440px] mx-auto px-6">
+<!-- Store Info Card Grid -->
+<div class="grid grid-cols-12 gap-8 items-center">
+<!-- Store Image -->
+<div class="col-span-12 lg:col-span-5">
+<div class="rounded-3xl overflow-hidden shadow-md border border-subtle-stone bg-parchment-warm relative aspect-[4/3]">
+<img class="w-full h-full object-cover" data-alt="The modern, welcoming storefront and interior produce aisle of an upscale organic supermarket with warm wooden architectural accents, clear signage, lush green displays, and natural lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDOhO5UuESKmP6xf015mCsml7fw8wR5WFuAoseiRStElZq_00upWUI5vQBaFJXSejukgoCxmMhOS4f0kww2BtZEmY3rv1IxELS4GCSLRQE9TjNwj_-6KuYq5A-LEze4byJDmQU0upLkPpyBQiFI_t80jiR1pjKPp1mv2IsAwQ6g09fL6S4WVxfjpJ0V-OVjqgYTmNH5viP7nyu3WsLMXqhpUwINvnQiINdjEBAjO9bgJzdZ47V9SLKiB6bL_7kQMLr2rfMk9WOFGI0"/>
+<div class="absolute bottom-4 left-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl border border-subtle-stone text-xs flex items-center gap-3">
+<div class="w-2.5 h-2.5 rounded-full bg-emerald-500"></div>
+<span class="font-bold text-on-surface">현재 정상 영업 중 • 23:00 마감</span>
+</div>
+</div>
+</div>
+<!-- Store Meta & Facilities -->
+<div class="col-span-12 lg:col-span-7 flex flex-col gap-6">
+<div>
+<div class="inline-flex items-center gap-1.5 text-primary text-xs font-bold uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-[16px]" data-icon="location_on">location_on</span>
+<span>Flagship Neighborhood Store</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">
+              E-Plus Mart 평내본점 안내
+            </h2>
+<p class="font-body-md text-on-surface-variant text-sm mt-1">
+              경기 남양주시 평내로 124 (평내호평역 1번 출구 도보 5분) | 고객지원 031-590-1000
+            </p>
+</div>
+<!-- Facility Badges Grid -->
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-4">
+<div class="p-3.5 bg-parchment rounded-xl border border-subtle-stone">
+<div class="flex items-center gap-2 text-primary font-bold text-xs mb-1">
+<span class="material-symbols-outlined text-[18px]" data-icon="ev_station">ev_station</span>
+<span>전기차 충전소</span>
+</div>
+<p class="text-[11px] text-on-surface-variant">초고속 급속 6기 상시 완비</p>
+</div>
+<div class="p-3.5 bg-parchment rounded-xl border border-subtle-stone">
+<div class="flex items-center gap-2 text-primary font-bold text-xs mb-1">
+<span class="material-symbols-outlined text-[18px]" data-icon="local_parking">local_parking</span>
+<span>무료 주차 혜택</span>
+</div>
+<p class="text-[11px] text-on-surface-variant">구매 고객 2시간 무료 주차</p>
+</div>
+<div class="p-3.5 bg-parchment rounded-xl border border-subtle-stone">
+<div class="flex items-center gap-2 text-primary font-bold text-xs mb-1">
+<span class="material-symbols-outlined text-[18px]" data-icon="box">box</span>
+<span>스마트 픽업 데스크</span>
+</div>
+<p class="text-[11px] text-on-surface-variant">온라인 주문 30분 내 픽업</p>
+</div>
+</div>
+<!-- Community Eco Campaign Notice Banner -->
+<div class="p-5 rounded-2xl bg-emerald-50 border border-emerald-200/80 flex items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-[#046F46] text-white flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-[22px]" data-icon="shopping_basket">shopping_basket</span>
+</div>
+<div>
+<p class="font-title-md text-sm font-bold text-primary">
+                  지구를 생각하는 친환경 그린 마켓 캠페인
+                </p>
+<p class="text-xs text-on-surface-variant">
+                  개인 다회용 장바구니 지참 시 결제 금액 <strong>500원 즉시 할인</strong> &amp; 신규 회원 바이오 에코백 증정!
+                </p>
+</div>
+</div>
+<button class="shrink-0 text-xs font-bold text-primary hover:underline underline-offset-2">
+              자세히 보기 →
+            </button>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ========================================== -->
+<!-- SECTION 11: Whole Foods-Style Footer       -->
+<!-- ========================================== -->
+<footer class="bg-surface-container text-on-surface border-t border-outline-variant/40">
+<!-- Newsletter Strip -->
+<div class="border-b border-subtle-stone bg-[#1A2E22] text-[#EFECE6] py-10">
+<div class="max-w-[1440px] mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-white">
+            E-Plus Mart 제철 유기농 레터 구독
+          </h3>
+<p class="text-xs text-stone-300 mt-1">
+            신선한 산지 수확 소식과 매주 목요일 전송되는 회원 전용 시크릿 할인 쿠폰을 받아보세요.
+          </p>
+</div>
+<form class="flex w-full md:w-auto gap-2" onsubmit="event.preventDefault(); alert('구독이 완료되었습니다!');">
+<input class="bg-white/10 text-white placeholder:text-stone-400 text-xs px-4 py-3 rounded-xl border border-white/20 focus:outline-none focus:border-emerald-400 w-full md:w-80" placeholder="이메일 주소를 입력하세요 (example@domain.com)" required="" type="email"/>
+<button class="bg-[#046F46] hover:bg-emerald-600 text-white font-title-md text-xs px-5 py-3 rounded-xl shrink-0 transition-colors" type="submit">
+            구독하기
+          </button>
+</form>
+</div>
+</div>
+<!-- Main Footer Directory Links -->
+<div class="w-full max-w-7xl mx-auto px-6 py-12 flex flex-col gap-8">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-8">
+<!-- Col 1 -->
+<div>
+<h4 class="font-title-md text-sm font-bold text-primary mb-4">매장 안내 &amp; 서비스</h4>
+<ul class="space-y-2 text-xs text-on-surface-variant font-body-sm">
+<li><a class="hover:text-primary transition-colors" href="#store-hours">평내본점 위치 &amp; 영업시간</a></li>
+<li><a class="hover:text-primary transition-colors" href="#delivery-zone">당일 총알배송 가능 권역</a></li>
+<li><a class="hover:text-primary transition-colors" href="#smart-pickup">스마트 픽업 서비스 안내</a></li>
+<li><a class="hover:text-primary transition-colors" href="#gift-cards">유기농 모바일 상품권</a></li>
+</ul>
+</div>
+<!-- Col 2 -->
+<div>
+<h4 class="font-title-md text-sm font-bold text-primary mb-4">품질 기준 300+</h4>
+<ul class="space-y-2 text-xs text-on-surface-variant font-body-sm">
+<li><a class="hover:text-primary transition-colors" href="#banned-list">퇴출 유해성분 300종 리스트</a></li>
+<li><a class="hover:text-primary transition-colors" href="#animal-welfare">동물복지 5대 자유 인증</a></li>
+<li><a class="hover:text-primary transition-colors" href="#non-gmo">Non-GMO 유전자변형 배제</a></li>
+<li><a class="hover:text-primary transition-colors" href="#radiation-check">수산물 방사능 정밀 검사</a></li>
+</ul>
+</div>
+<!-- Col 3 -->
+<div>
+<h4 class="font-title-md text-sm font-bold text-primary mb-4">농가 파트너십</h4>
+<ul class="space-y-2 text-xs text-on-surface-variant font-body-sm">
+<li><a class="hover:text-primary transition-colors" href="#local-farms">농가 직거래 파트너십</a></li>
+<li><a class="hover:text-primary transition-colors" href="#partner-apply">입점문의 및 납품 상담</a></li>
+<li><a class="hover:text-primary transition-colors" href="#carbon-neutral">탄소발자국 제로 프로젝트</a></li>
+<li><a class="hover:text-primary transition-colors" href="#youth-farmers">청년 유기농 농부 육성펀드</a></li>
+</ul>
+</div>
+<!-- Col 4 -->
+<div>
+<h4 class="font-title-md text-sm font-bold text-primary mb-4">클럽 멤버십</h4>
+<ul class="space-y-2 text-xs text-on-surface-variant font-body-sm">
+<li><a class="hover:text-primary transition-colors" href="#club-perks">E-플러스 클럽 등급 혜택</a></li>
+<li><a class="hover:text-primary transition-colors" href="#point-info">유기농 그린포인트 적립 안내</a></li>
+<li><a class="hover:text-primary transition-colors" href="#circular-download">금주의 전단 다운로드</a></li>
+<li><a class="hover:text-primary transition-colors" href="#vip-lounge">VIP 회원 프라이빗 세미나</a></li>
+</ul>
+</div>
+<!-- Col 5: CS Center -->
+<div>
+<h4 class="font-title-md text-sm font-bold text-primary mb-2">고객만족센터</h4>
+<p class="font-headline-sm text-title-lg font-bold text-primary">1588-0000</p>
+<p class="text-[11px] text-on-surface-variant mt-1">
+            평일 09:00 ~ 18:00 (점심시간 12:00 ~ 13:00)<br/>
+            주말 및 공휴일: 1:1 카카오톡 상담 운영
+          </p>
+<div class="mt-4">
+<button class="w-full bg-white hover:bg-stone-50 border border-outline-variant/60 text-on-surface font-title-md text-xs py-2 rounded-lg transition-colors flex items-center justify-center gap-1.5">
+<span class="material-symbols-outlined text-[16px]" data-icon="chat">chat</span>
+<span>카카오톡 실시간 상담</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Certifications Seals Strip -->
+<div class="pt-6 border-t border-subtle-stone flex flex-wrap items-center justify-between gap-4 text-outline font-title-md text-xs">
+<div class="flex items-center gap-6">
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="eco">eco</span>
+            국립농산물품질관리원 친환경 인증
+          </span>
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="check_circle">check_circle</span>
+            HACCP 위해요소관리우수
+          </span>
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="pets">pets</span>
+            농림축산식품부 동물복지 인증
+          </span>
+<span class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[18px] text-primary" data-icon="public">public</span>
+            ISO 14001 환경경영시스템
+          </span>
+</div>
+<div class="flex items-center gap-3">
+<span class="text-[11px] text-outline">배송 파트너: E-Plus Fresh Express 100% 전기냉장탑차</span>
+</div>
+</div>
+<!-- Legal Info -->
+<div class="pt-6 border-t border-subtle-stone flex flex-col gap-2 text-[11px] text-outline leading-relaxed">
+<p>
+          상호명: (주)이플러스마트 | 대표이사: 김신선 | 사업자등록번호: 123-81-99887 | 통신판매업신고: 제 2024-경기남양주-0412호 | 개인정보보호책임자: 박자연
+        </p>
+<p>
+          본사: 경기도 남양주시 평내로 124 이플러스마트 빌딩 4층 | 고객센터: 1588-0000 | 전자우편: support@eplusmart.co.kr | 호스팅제공: (주)이플러스네트웍스
+        </p>
+<div class="flex flex-wrap items-center gap-4 mt-2 font-medium">
+<a class="text-on-surface font-bold underline" href="#privacy">개인정보처리방침</a>
+<span>•</span>
+<a class="hover:text-primary" href="#terms">이용약관</a>
+<span>•</span>
+<a class="hover:text-primary" href="#standards">유기농 품질 기준 300+</a>
+<span>•</span>
+<a class="hover:text-primary" href="#partner">농가 직거래 파트너십</a>
+<span>•</span>
+<a class="hover:text-primary" href="#company">회사소개</a>
+</div>
+<p class="mt-4 text-outline font-title-md">
+          © 2024 E-Plus Mart Fresh &amp; Organic. All rights reserved. 산지직송 프리미엄 유기농 마켓.
+        </p>
+</div>
+</div>
+</footer>
+</body></html>
